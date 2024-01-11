@@ -1,4 +1,4 @@
-import cc1 from "./images/circle1.jpg";
+import circle1 from "./images/circle1.jpg";
 import cc2 from "./images/circle2.jpg";
 import cc3 from "./images/circle3.jpg";
 import cc4 from "./images/circle4.jpg";
@@ -27,7 +27,7 @@ import bc4 from "./images/Bcircle4.webp";
 export const data = [
   {
     id: 1,
-    img: cc1,
+    img: circle1,
   },
   {
     id: 2,
