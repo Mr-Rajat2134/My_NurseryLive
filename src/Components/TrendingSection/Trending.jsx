@@ -1,7 +1,7 @@
 import { Box, Typography } from "@mui/material";
 import React from "react";
 import "./Trending.css";
-import imG from "../../Images/Bcircle1.webp";
+// import imG from "../../Images/Bcircle1.webp";
 import { Bcircledata } from "../../Dummydata";
 import Theme from "../../Theme";
 
