@@ -1,29 +1,29 @@
-import cc1 from "../src/images/circle1.jpg";
-import cc2 from "../src/images/circle2.jpg";
-import cc3 from "../src/images/circle3.jpg";
-import cc4 from "../src/images/circle4.jpg";
-import cc5 from "../src/images/circle5.jpg";
-import cc6 from "../src/images/circle6.jpg";
-import cc7 from "../src/images/circle7.jpg";
-import cc8 from "../src/images/circle8.jpg";
-import cc9 from "../src/images/circle9.jpg";
-import cc10 from "../src/images/circle10.jpg";
-import s1 from "../src/images/S1plants.webp";
-import s2 from "../src/images/S2plants.webp";
-import s3 from "../src/images/S3plants.webp";
-import s4 from "../src/images/S4plants.webp";
-import s5 from "../src/images/S5plants.webp";
+import cc1 from "./images/circle1.jpg";
+import cc2 from "./images/circle2.jpg";
+import cc3 from "./images/circle3.jpg";
+import cc4 from "./images/circle4.jpg";
+import cc5 from "./images/circle5.jpg";
+import cc6 from "./images/circle6.jpg";
+import cc7 from "./images/circle7.jpg";
+import cc8 from "./images/circle8.jpg";
+import cc9 from "./images/circle9.jpg";
+import cc10 from "./images/circle10.jpg";
+import s1 from "./images/S1plants.webp";
+import s2 from "./images/S2plants.webp";
+import s3 from "./images/S3plants.webp";
+import s4 from "./images/S4plants.webp";
+import s5 from "./images/S5plants.webp";
 
-import Ic1 from "../src/images/Img1Card.webp";
-import Ic2 from "../src/images/Img2Card.jpg";
-import Ic3 from "../src/images/Img3Card.jpg";
-import Ic4 from "../src/images/Img4Card.jpg";
-import Ic5 from "../src/images/Img5Card.jpg";
+import Ic1 from "./images/Img1Card.webp";
+import Ic2 from "./images/Img2Card.jpg";
+import Ic3 from "./images/Img3Card.jpg";
+import Ic4 from "./images/Img4Card.jpg";
+import Ic5 from "./images/Img5Card.jpg";
 
-import bc1 from "../src/images/Bcircle1.webp";
-import bc2 from "../src/images/Bcircle2.webp";
-import bc3 from "../src/images/Bcircle3.webp";
-import bc4 from "../src/images/Bcircle4.webp";
+import bc1 from "./images/Bcircle1.webp";
+import bc2 from "./images/Bcircle2.webp";
+import bc3 from "./images/Bcircle3.webp";
+import bc4 from "./images/Bcircle4.webp";
 export const data = [
   {
     id: 1,
