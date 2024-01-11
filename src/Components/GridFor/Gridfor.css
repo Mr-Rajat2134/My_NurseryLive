@@ -1,0 +1,12 @@
+.Textbox{
+    position: relative;
+    /* width: 50%; */
+    min-height:10rem ;
+    left: 1rem;
+    border: 1px solid blue;
+    /* text-align: center; */
+    bottom:15rem;
+    
+    
+}
+

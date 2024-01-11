@@ -1,0 +1,99 @@
+/* PlantCards.css */
+.Box {
+    padding: 16px;
+  }
+  
+  .Text {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 16px;
+  }
+  
+  .Cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 16px;
+  }
+  
+  .Card {
+    flex: 1;
+    max-width: 200px;
+    height: 100%;
+    padding: 1rem;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+    margin-bottom: 16px;
+  
+    &:hover {
+      transform: scale(1.05);
+    }
+  
+    .Ret {
+      margin-top: 0.4rem;
+      font-weight: 500;
+      color: #333;
+      font-size: 1.3rem;
+    }
+  
+    img {
+      height: 200px;
+      width: 100%;
+      object-fit: cover;
+      border-radius: 8px;
+    }
+  
+    Button {
+      margin-top: 0.1rem;
+      &:hover {
+        background-color: #ff6b6bc6;
+      }
+    }
+  
+    /* Button.View {
+      /* background-color: #f75454; */
+    /* } */
+  
+    Button.AddToCart {
+      color: #fff;
+      background-color: #4caf50;
+    }
+  }
+  
+  /* Responsive Styles */
+  
+  @media only screen and (min-width: 600px) {
+    .Cards {
+      justify-content: space-around;
+    }
+  }
+  
+  @media only screen and (min-width: 900px) {
+    .Card {
+      max-width: 300px;
+    }
+  }
+  
+  @media only screen and (min-width: 1200px) {
+    .Card {
+      max-width: 400px;
+    }
+  }
+  
+  /* Swiper Styles */
+  .swiper-container {
+    margin-top: 16px;
+  }
+  
+  .swiper-slide {
+    width: auto;
+  }
+  
+  .swiper-pagination {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+  }
+  

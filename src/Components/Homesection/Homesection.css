@@ -1,0 +1,23 @@
+.top {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+  gap: 1rem;
+  padding: 3rem;
+}
+
+.top .img {
+  width: 100%;
+  height: auto;
+  cursor: pointer;
+}
+
+.top .img:hover {
+  transform: scale(1.1);
+}
+
+/* Add responsive styles */
+@media only screen and (max-width: 768px) {
+  .top {
+    grid-template-columns: repeat(auto-fill, minmax(80px, 1fr));
+  }
+}
