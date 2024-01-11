@@ -21,7 +21,7 @@ import SearchIcon from "@mui/icons-material/Search";
 import LocalGroceryStoreIcon from "@mui/icons-material/LocalGroceryStore";
 import SupportAgentIcon from "@mui/icons-material/SupportAgent";
 import PersonIcon from "@mui/icons-material/Person";
-import Logo from "../../images/LOGO.jpg";
+// import Logo from "";
 import { Link } from "react-router-dom";
 import { useCart } from "../Functionality/snackbars";
 import Theme from "../../Theme";
@@ -105,7 +105,7 @@ const Header = () => {
      <Toolbar  sx={{display:"flex",  justifyContent:'space-between'}}>
         <Typography variant="h" component="div" sx={{display:{ md:'block'    ,xs:'none' }}}>
           <Link to="/">
-            <img src={Logo} alt="" width={150} />
+            <img src='' alt="" width={150} />
           </Link>
         </Typography>
       
