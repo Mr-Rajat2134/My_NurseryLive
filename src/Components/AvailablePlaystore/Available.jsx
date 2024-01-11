@@ -1,8 +1,8 @@
 import { Box, Typography } from '@mui/material'
 import './Available.css'
 import React from 'react'
-import ImgPlay from '../../../public/Assets/images/ImgAppleStore.jpg'
-import ImgApple from '../../../public/Assets/images/ImgPlaystore.jpg'
+import ImgPlay from '../../images/ImgApplestore.jpg'
+// import ImgApple from '../../../public/Assets/images/ImgPlaystore.jpg'
 
 const Available = () => {
   return (
@@ -13,7 +13,7 @@ const Available = () => {
             {/* <img src='' alt=""     />
             <img src=''  alt=""    /> */}
             <img src={ImgPlay} alt=""     />
-            <img src={ImgApple} alt=""    />
+            {/* <img src={ImgApple} alt=""    /> */}
         </Box>
         </Box>
       
