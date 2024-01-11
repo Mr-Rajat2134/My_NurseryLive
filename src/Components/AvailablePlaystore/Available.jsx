@@ -1,8 +1,8 @@
 import { Box, Typography } from '@mui/material'
 import './Available.css'
 import React from 'react'
-import ImgPlay from '../../Images/ImgPlaystore.jpg'
-import ImgApple from '../../Images/ImgApplestore.jpg'
+import ImgPlay from '../../images/ImgPlaystore.jpg'
+import ImgApple from '../../images/ImgApplestore.jpg'
 
 const Available = () => {
   return (

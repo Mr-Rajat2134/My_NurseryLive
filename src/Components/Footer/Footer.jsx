@@ -41,8 +41,8 @@
 
 import React from 'react';
 import './Footer.css';
-import logo from "../../Images/LOGO.jpg";
-import logo2 from '../../Images/Imgf2ooter.png'
+import logo from "../../images/LOGO.jpg"
+import logo2 from '../../images/Imgf2ooter.png'
 import { Link } from 'react-router-dom';
 
 function App() {
