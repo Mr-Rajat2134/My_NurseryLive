@@ -21,7 +21,7 @@ import SearchIcon from "@mui/icons-material/Search";
 import LocalGroceryStoreIcon from "@mui/icons-material/LocalGroceryStore";
 import SupportAgentIcon from "@mui/icons-material/SupportAgent";
 import PersonIcon from "@mui/icons-material/Person";
-import Logo from "../../images/nurserylive-logo.avif";
+import Logo from "../../Images/LOGO.jpg";
 import { Link } from "react-router-dom";
 import { useCart } from "../Functionality/snackbars";
 import Theme from "../../Theme";
