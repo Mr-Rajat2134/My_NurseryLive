@@ -1,12 +1,12 @@
 import { Box, Typography } from "@mui/material";
 import React from "react";
 import "./Trending.css";
-// import imG from "../../Images/Bcircle1.webp";
+
 import { Bcircledata } from "../../Dummydata";
 import Theme from "../../Theme";
 
 const Trending = () => {
-  const { primary } = Theme;
+  const { palette } = Theme;
   return (
     <>
       <Box className="Trending">
@@ -17,7 +17,7 @@ const Trending = () => {
           {Bcircledata.map((item) => (
             <Box>
               <img src={item.Image} alt="" />
-              <Typography color={primary.Light}>{item.Title}</Typography>
+              <Typography color={palette.primary.light}>{item.Title}</Typography>
             </Box>
             ))}
         </Box>

@@ -1,0 +1,61 @@
+/* Header.css */
+
+/* Custom styling for the search container */
+.custom-search {
+    position: relative;
+    border-radius: 4px;
+    background-color: rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+  
+    &:hover {
+      background-color: rgba(0, 0, 0, 0.14);
+    }
+  
+    width: 100%;
+  
+    @media (min-width: 600px) {
+      margin-left: 11px; /* Adjust the left margin on larger screens */
+      width: auto;
+    }
+  }
+  
+  /* Additional custom styles for the input field */
+  .custom-search .MuiInputBase-input {
+    color: inherit;
+    width: 100%;
+    padding: 8px 16px;
+    transition: width 0.3s ease;
+  
+    /* &:focus {
+      /* width: 250px; Adjust the width on focus, if desired */
+    /* } */
+  }
+  
+  /* Custom styling for the search icon */
+  .custom-search-icon {
+    padding: 8px 16px;
+    height: 100%;
+    position: absolute;
+    pointer-events: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 0;
+    left: 0;
+    background-color: #a7aeb3; /* Change the color to your preferred color */
+    color: #ffffff; /* Change the color to your preferred color */
+  
+    @media (min-width: 600px) {
+      left: 120px; /* Adjust the left position on larger screens */
+    }
+
+    .custom-search-icon {
+
+left :5rem;
+    position: absolute;
+
+    }
+
+
+  }
+  

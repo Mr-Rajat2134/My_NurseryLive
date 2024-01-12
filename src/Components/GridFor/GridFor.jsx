@@ -7,7 +7,7 @@ import { Typography } from "@mui/material";
 // import { Scale } from "@mui/icons-material";
 
 export default function MasonryImageList() {
-  const { primary } = Theme;
+  const { palette } = Theme;
   return (
     <Box sx={{ width: "100%", marginTop: "2rem" }}>
       <Box
@@ -15,7 +15,7 @@ export default function MasonryImageList() {
           minHeightheight: 450,
           padding: "2rem",
           borderRadius: "2rem",
-          backgroundColor: primary.main,
+          backgroundColor: palette.primary.main,
         }}
       >
         <Typography variant="h5" sx={{ textAlign: "center" }}>

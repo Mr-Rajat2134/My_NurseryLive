@@ -41,9 +41,10 @@
 
 import React from 'react';
 import './Footer.css';
-import logo from "../../images/LOGO.jpg"
-import logo2 from '../../images/Imgf2ooter.png'
+import logo from "../images/LOGO.jpg"
+import logo2 from '../images/Imgf2ooter.png'
 import { Link } from 'react-router-dom';
+import { Divider } from '@mui/material';
 
 function App() {
   return (
@@ -51,6 +52,7 @@ function App() {
       {/* Your main content goes here */}
 
       <footer>
+        <Divider/>
         <div className="footer-container">
           <div className="footer-content">
             <Link   to='/'>

@@ -1,19 +1,56 @@
-import React from 'react'
-import './Homesection.css'
-import { Box } from '@mui/material'
-import {data} from '../../Dummydata'
+import React, { useEffect, useState } from "react";
+import "./Homesection.css";
+import { Box } from "@mui/material";
+import Theme from "../../Theme";
+import { data } from "../../Dummydata";
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Autoplay, Navigation } from "swiper/modules";
 
 const Homesection = () => {
+  const theme = Theme;
+  const [swiperSlidesPerView, setSwiperSlidesPerView] = useState(3);
+
+  useEffect(() => {
+    const handleResize = () => {
+      if (window.innerWidth < theme.breakpoints.values.sm) {
+        setSwiperSlidesPerView(4);
+      } else {
+        setSwiperSlidesPerView(7);
+      }
+    };
+
+    handleResize();
+
+    window.addEventListener("resize", handleResize);
+
+    return () => {
+      window.removeEventListener("resize", handleResize);
+    };
+  }, [theme.breakpoints.values.sm]);
+
+  const slides = data.map((item) => (
+    <SwiperSlide key={item.id}>
+      <Box className="top">
+        <img src={item.img} className="img" alt={`Slide ${item.id}`} />
+      </Box>
+    </SwiperSlide>
+  ));
+
   return (
-    <Box className="top"   >
-    {data.map((item) => (
-      <img key={item.id} src={item.img}   className='img'  />
-    ))}
-  </Box>
-  )
-}
+    <Swiper
+      modules={[Navigation, Autoplay]}
+      className="mySwiper"
+      spaceBetween={1}
+      slidesPerView={swiperSlidesPerView}
+      pagination={{ clickable: true }}
+      autoplay={{
+        delay: 2500,
+        disableOnInteraction: false,
+      }}
+    >
+      {slides}
+    </Swiper>
+  );
+};
 
 export default Homesection;
-
-
-
