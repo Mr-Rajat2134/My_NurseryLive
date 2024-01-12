@@ -5,11 +5,14 @@ import Available from "../Components/AvailablePlaystore/Available";
 import PlantCards from "../Components/PlantCards/PlantCards";
 import Trending from "../Components/TrendingSection/Trending";
 import GridFor from "../Components/GridFor/GridFor";
+import Slider from "../Components/Slider/Slider";
 const Allmodules = () => {
   return (
     <>
       <Homesection />
-      <MainSlider />
+    
+      <Slider/>
+
       <Available />
       <PlantCards />
       <Trending />
