@@ -2,7 +2,7 @@ import { AppBar, Box, Typography } from "@mui/material";
 import "./Available.css";
 import React from "react";
 import ImgApple from "../images/ImgApplestore.jpg";
-import ImgPlay from "../images/ImgPlaystore.jpg";
+import ImgPlay from"../images/ImgApplestore.jpg";
 
 
 const Available = () => {
