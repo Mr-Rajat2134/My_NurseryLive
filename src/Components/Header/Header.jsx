@@ -533,6 +533,7 @@ import { useCart } from "../Functionality/snackbars";
 import Login from "../../pages/LoginModal/Login";
 import HeaderLOGO from "../images/LOGO.jpg";
 import Theme from "../../Theme";
+import Searchbar from "./Searchbar";
 
 const { palette } = Theme;
 const Navbar = styled(AppBar)(({ theme }) => ({
@@ -542,47 +543,47 @@ const Navbar = styled(AppBar)(({ theme }) => ({
   },
 }));
 
-const Search = styled("div")(({ theme }) => ({
-  position: "relative",
-  borderRadius: theme.shape.borderRadius,
-  backgroundColor: alpha(theme.palette.common.black, 0.1),
-  "&:hover": {
-    backgroundColor: alpha(theme.palette.common.black, 0.14),
-  },
-  marginLeft: 0,
-  width: "100%",
-  [theme.breakpoints.up("xs")]: {
-    marginLeft: theme.spacing(2),
-    width: "auto",
-  },
-}));
+// const Search = styled("div")(({ theme }) => ({
+//   position: "relative",
+//   borderRadius: theme.shape.borderRadius,
+//   backgroundColor: alpha(theme.palette.common.black, 0.1),
+//   "&:hover": {
+//     backgroundColor: alpha(theme.palette.common.black, 0.14),
+//   },
+//   marginLeft: 0,
+//   width: "100%",
+//   [theme.breakpoints.up("xs")]: {
+//     marginLeft: theme.spacing(2),
+//     width: "auto",
+//   },
+// }));
 
-const SearchIconWrapper = styled("div")(({ theme }) => ({
-  padding: theme.spacing(0, 2.1),
-  height: "100%",
-  position: "absolute",
-  pointerEvents: "none",
-  display: "flex",
-  alignItems: "center",
-  justifyContent: "center",
-  top: 0,
-  left: 0,
-  backgroundColor: palette.primary.light,
-  color: palette.primary.main,
-  [theme.breakpoints.up("xs")]: {
-    left: theme.spacing("12rem"),
-  },
-}));
+// const SearchIconWrapper = styled("div")(({ theme }) => ({
+//   padding: theme.spacing(0, 2.1),
+//   height: "100%",
+//   position: "absolute",
+//   pointerEvents: "none",
+//   display: "flex",
+//   alignItems: "center",
+//   justifyContent: "center",
+//   top: 0,
+//   left: 0,
+//   backgroundColor: palette.primary.light,
+//   color: palette.primary.main,
+//   [theme.breakpoints.up("xs")]: {
+//     left: theme.spacing("12rem"),
+//   },
+// }));
 
-const StyledInputBase = styled(InputBase)(({ theme }) => ({
-  color: "inherit",
-  width: "100%",
-  "& .MuiInputBase-input": {
-    padding: theme.spacing(1, 1, 1, 0),
-    paddingLeft: `calc(1em + ${theme.spacing(4)})`,
-    transition: theme.transitions.create("width"),
-  },
-}));
+// const StyledInputBase = styled(InputBase)(({ theme }) => ({
+//   color: "inherit",
+//   width: "100%",
+//   "& .MuiInputBase-input": {
+//     padding: theme.spacing(1, 1, 1, 0),
+//     paddingLeft: `calc(1em + ${theme.spacing(4)})`,
+//     transition: theme.transitions.create("width"),
+//   },
+// }));
 
 const Header = () => {
   const { palette } = Theme;
@@ -649,7 +650,7 @@ const Header = () => {
             </Link>
           </Typography>
 
-          <Search className="custom-search">
+          {/* <Search className="custom-search">
             <SearchIconWrapper className="custom-search-icon">
               <SearchIcon />
             </SearchIconWrapper>
@@ -657,7 +658,10 @@ const Header = () => {
               placeholder="Search…"
               inputProps={{ "aria-label": "search" }}
             />
-          </Search>
+          </Search> */}
+
+
+          <Searchbar/>
 
           <div style={{ display: "flex", alignItems: "center", gap: "2rem" }}>
             <Typography
