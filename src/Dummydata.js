@@ -88,6 +88,18 @@ export const silder = [
     id: 5,
     img: s5,
   },
+  {
+    id: 6,
+    img: s5,
+  },
+  {
+    id: 7,
+    img: s2,
+  },
+  {
+    id: 8,
+    img: s4,
+  },
 ];
 
 export const Carddata = [
@@ -133,7 +145,7 @@ export const Carddata = [
   },
   {
     id: "5",
-    Name: "Rose",
+    Name: "Teak",
     description:
       "He bends! He stretches! He even ties in knots, but always returns to his original shape!Plants are living organisms that grow from soil and use photosynthesis to produce their own food. They are one of five kingdoms of living things, and are autotrophic eukaryotes, meaning they have complex cells and make their own food.",
     img: Ic5,
@@ -153,7 +165,7 @@ export const Carddata = [
   },
   {
     id: "7",
-    Name: "Rose",
+    Name: "Teak",
     description:
       "He bends! He stretches! He even ties in knots, but always returns to his original shape!Plants are living organisms that grow from soil and use photosynthesis to produce their own food. They are one of five kingdoms of living things, and are autotrophic eukaryotes, meaning they have complex cells and make their own food.",
     img: Ic5,
@@ -163,7 +175,7 @@ export const Carddata = [
   },
   {
     id: "8",
-    Name: "Rose",
+    Name: "LilY",
     description:
       "He bends! He stretches! He even ties in knots, but always returns to his original shape!Plants are living organisms that grow from soil and use photosynthesis to produce their own food. They are one of five kingdoms of living things, and are autotrophic eukaryotes, meaning they have complex cells and make their own food.",
     img: Ic5,
@@ -183,7 +195,7 @@ export const Carddata = [
   },
   {
     id: "10",
-    Name: "Rose",
+    Name: "Sun",
     description:
       "He bends! He stretches! He even ties in knots, but always returns to his original shape!Plants are living organisms that grow from soil and use photosynthesis to produce their own food. They are one of five kingdoms of living things, and are autotrophic eukaryotes, meaning they have complex cells and make their own food.",
     img: Ic5,

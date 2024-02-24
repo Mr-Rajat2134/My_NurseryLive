@@ -60,7 +60,7 @@
 //                 startIcon={<ShoppingCartIcon />}
 //                 sx={{
 //                   mt: "0.1rem",
-//                   color: primary.Main,
+//                   color: primary.main,
 //                   backgroundColor: primary.Light,
 //                   ":hover": { bgcolor: "#ff6b6bc6" },
 //                 }}
@@ -72,7 +72,7 @@
 //                 startIcon={<BoltIcon />}
 //                 sx={{
 //                   mt: "0.1rem",
-//                   color: primary.Main,
+//                   color: primary.main,
 //                   backgroundColor: primary.Light,
 //                   ":hover": { bgcolor: "#ff6b6bc6" },
 //                 }}
@@ -109,7 +109,7 @@ import { useCart } from '../../Components/Functionality/snackbars';
 
 const SingleProducts = () => {
   const { addToCart } = useCart();
-  const { primary } = Theme;
+  const { palette } = Theme;
   const { productId } = useParams();
   const thisProduct = Carddata.find((prod) => prod.id === productId);
 
@@ -132,7 +132,7 @@ const SingleProducts = () => {
         <Box
           className="product-container"
           sx={{
-            bgcolor: primary.main,
+            bgcolor: palette.primary.main,
             minHeight: '80vh',
             marginTop: '1rem',
             padding: '5rem',
@@ -146,7 +146,7 @@ const SingleProducts = () => {
           <Box className="product-details" sx={{ minWidth: '20vw', marginLeft: '3rem' }}>
             <h1>{thisProduct.Name}</h1>
             <Rating size="small" name="simple-controlled" value={thisProduct.Value} />
-            <h1 style={{ color: primary.Light }}> ₹ {thisProduct.price}</h1>
+            <h1 style={{ color: palette.primary.light }}> ₹ {thisProduct.price}</h1>
             <h5> {thisProduct.Title}</h5>
             <p> {thisProduct.description}</p>
 
@@ -165,8 +165,8 @@ const SingleProducts = () => {
                 startIcon={<ShoppingCartIcon />}
                 sx={{
                   mt: '0.1rem',
-                  color: primary.Main,
-                  backgroundColor: primary.Light,
+                  color: palette.primary.main,
+                  backgroundColor:palette. primary.light,
                   ':hover': { bgcolor: '#ff6b6bc6' },
                 }}
                 variant="contained"
@@ -178,8 +178,8 @@ const SingleProducts = () => {
                 startIcon={<BoltIcon />}
                 sx={{
                   mt: '0.1rem',
-                  color: primary.Main,
-                  backgroundColor: primary.Light,
+                  color: palette.primary.main,
+                  backgroundColor:palette. primary.light,
                   ':hover': { bgcolor: '#ff6b6bc6' },
                 }}
                 variant="contained"

@@ -1,4 +1,4 @@
-/* PlantCards.css */
+
 .Box {
     padding: 16px;
   }
@@ -19,7 +19,7 @@
   
   .Card {
     flex: 1;
-    max-width: 200px;
+    width: 100px;
     height: 100%;
     padding: 1rem;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
@@ -51,17 +51,14 @@
       }
     }
   
-    /* Button.View {
-      /* background-color: #f75454; */
-    /* } */
-  
+   
     Button.AddToCart {
       color: #fff;
       background-color: #4caf50;
     }
   }
   
-  /* Responsive Styles */
+
   
   @media only screen and (min-width: 600px) {
     .Cards {
@@ -81,7 +78,7 @@
     }
   }
   
-  /* Swiper Styles */
+
   .swiper-container {
     margin-top: 16px;
   }
@@ -97,3 +94,6 @@
     text-align: center;
   }
   
+
+
+   

@@ -41,12 +41,12 @@
 
 .Trending {
     min-height: 80vh;
-    margin-top: 5rem;
+    /* margin-top: 5rem; */
     background: white;
   }
   
   .box {
-    height: 5rem;
+    /* height: 5rem; */
     width: 100%;
     /* border: 1px solid rgb(109, 53, 53); */
     top: 2rem;

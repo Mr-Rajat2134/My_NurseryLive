@@ -3,13 +3,14 @@ import "./Available.css";
 import React from "react";
 import ImgApple from "../images/ImgApplestore.jpg";
 import ImgPlay from"../images/ImgApplestore.jpg";
+import Theme from "../../Theme";
 
 
 const Available = () => {
   return (
     <Box className="Textcontainer">
       <Box className="TextBox">
-        <Typography className="Text">
+        <Typography   sx={{color:Theme.palette.primary.light}}  className="Text">
           Happiness is availing great offers on Nurserylive App!
         </Typography>
         <Box className="Imagges">

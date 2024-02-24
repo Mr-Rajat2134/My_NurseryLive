@@ -15,7 +15,7 @@ const Homesection = () => {
       if (window.innerWidth < theme.breakpoints.values.sm) {
         setSwiperSlidesPerView(4);
       } else {
-        setSwiperSlidesPerView(7);
+        setSwiperSlidesPerView(8);
       }
     };
 
@@ -30,7 +30,7 @@ const Homesection = () => {
 
   const slides = data.map((item) => (
     <SwiperSlide key={item.id}>
-      <Box className="top">
+      <Box   className="top">
         <img src={item.img} className="img" alt={`Slide ${item.id}`} />
       </Box>
     </SwiperSlide>

@@ -11,7 +11,7 @@ const Navbar = () => {
     <div className="Navbar"    >
       <div className="Right">
         <button className="btnReward">Reward</button>
-        <ul>
+        <ul   >
           <li>Help</li>
           <li>Track Order</li>
           <li>Order</li>

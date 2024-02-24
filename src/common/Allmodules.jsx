@@ -6,17 +6,26 @@ import PlantCards from "../Components/PlantCards/PlantCards";
 import Trending from "../Components/TrendingSection/Trending";
 import GridFor from "../Components/GridFor/GridFor";
 import Slider from "../Components/Slider/Slider";
+import { Box, Typography } from "@mui/material";
 const Allmodules = () => {
   return (
     <>
       <Homesection />
-    
-      <Slider/>
+      <Slider />
 
-      <Available />
-      <PlantCards />
+      <Box sx={{ marginTop: "2rem", bgcolor: "" }}>
+        <Typography sx={{ textAlign: "center", fontSize: "1.2rem" }}>
+          {" "}
+          Value For Money - Upto 35% Off
+        </Typography>
+        <PlantCards />
+        <PlantCards />
+      </Box>
+
       <Trending />
+
       <GridFor />
+      <Available />
     </>
   );
 };
