@@ -6,7 +6,7 @@ import YouTubeIcon from '@mui/icons-material/YouTube';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import { Box } from "@mui/material";
 
-const Navbar = () => {
+const Navbarr = () => {
   return (
     <div className="Navbar"    >
       <div className="Right">
@@ -34,4 +34,5 @@ const Navbar = () => {
   );
 };
 
-export default Navbar;
+export default Navbarr;
+

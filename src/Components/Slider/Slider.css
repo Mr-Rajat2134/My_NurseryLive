@@ -3,8 +3,9 @@
 
  .swiper-img {
   width: 100%;
-  height: auto;
-  max-width: 100%;
+  height: 100%;
+  /* height: auto; */
+  /* max-width: 100%; */
 }
   
 
@@ -35,7 +36,7 @@
     .swiper-slide  img{
       /* font-size: 16px; */
       width: 100%;
-      height: 100%;
+      max-height: 300px; 
       object-fit: cover;
     }
     
@@ -56,5 +57,13 @@
 
   }
   
-  /* Add more media queries as needed for different screen sizes */
   
+/* .swiper-img {
+  width: 100%; 
+} */
+
+/* @media screen and (max-width: 768px) {
+  
+  .swiper-img {
+    max-height: 300px; 
+  }} */

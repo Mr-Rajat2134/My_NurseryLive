@@ -5,7 +5,7 @@
         flex-direction: column; /* Change to column layout on small screens */
         justify-content: space-around;
         background: #F8F8F8;
-        /* margin-top: 5rem; */
+        margin-top: 2rem;
         padding: rem; /* Add padding for better spacing */
       }
       

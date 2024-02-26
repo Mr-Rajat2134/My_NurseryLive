@@ -11,9 +11,13 @@ const Trending = () => {
     <>
       <Box className="Trending">
         <Box className="box">
-          <p className="Heading">Trending</p>
+        <p className="Heading">Trending</p>
+          {/* <p className="Heading">Trending</p> */}
         </Box>
+       
+
         <Box className="InerBox">
+     
           {Bcircledata.map((item) => (
             <Box>
               <img src={item.Image} alt="" />

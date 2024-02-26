@@ -106,6 +106,7 @@ import BoltIcon from '@mui/icons-material/Bolt';
 import Theme from '../../Theme';
 import GridFor from '../../Components/GridFor/GridFor';
 import { useCart } from '../../Components/Functionality/snackbars';
+import PlantCards from '../../Components/PlantCards/PlantCards';
 
 const SingleProducts = () => {
   const { addToCart } = useCart();
@@ -190,6 +191,8 @@ const SingleProducts = () => {
           </Box>
         </Box>
 
+       
+        <PlantCards/>
         <GridFor />
       </Container>
     </div>

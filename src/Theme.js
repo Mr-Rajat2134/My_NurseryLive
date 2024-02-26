@@ -6,7 +6,8 @@ const Theme = createTheme({
       
        main: "#FFFFFF",
       light: "#FF6B6B",
-      
+      Textlight:"#FFF700"
+    
     },
   },
   breakpoints: {

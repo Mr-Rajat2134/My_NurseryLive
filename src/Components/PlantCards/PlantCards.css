@@ -96,4 +96,27 @@
   
 
 
-   
+   /* PlantCards.css */
+.Card {
+  position: relative;
+  transition: transform 0.3s;
+}
+
+.Card:hover {
+  transform: translateY(-5px); /* Adjust as needed */
+}
+
+.AddToCartButton {
+  position: absolute;
+  bottom: 10px; /* Adjust as needed */
+  left: 50%;
+  transform: translateX(-50%);
+  opacity: 0;
+  transition: opacity 0.3s;
+  Top: 10px;
+
+}
+
+.Card:hover .AddToCartButton {
+  opacity: 1;
+}
