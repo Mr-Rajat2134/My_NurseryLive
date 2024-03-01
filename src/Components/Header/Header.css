@@ -1,59 +1,45 @@
-Header.css
-
 .custom-search {
-    position: relative;
-    border-radius: 4px;
-    background-color: rgba(0, 0, 0, 0.1);
-    transition: background-color 0.3s ease;
-  
-    &:hover {
-      background-color: rgba(0, 0, 0, 0.14);
-    }
-  
-    width: 100%;
-  
-    @media (min-width: 600px) {
+  position: relative;
+  border-radius: 4px;
+  background-color: rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease;
+  width: 100%;
+
+  @media (min-width: 600px) {
       margin-left: 11px; 
       width: auto;
-    }
   }
-  
-  
-  .custom-search .MuiInputBase-input {
-    color: inherit;
-    width: 100%;
-    padding: 8px 16px;
-    transition: width 0.3s ease;
-  
-    
-  }
-   .custom-search-icon {
-    padding: 8px 16px;
-    height: 100%;
-    position: absolute;
-    pointer-events: none;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    top: 0;
-    left: 0;
-    background-color: #a7aeb3; 
-    color: #ffffff; 
-  
-    @media (min-width: 600px) {
+}
+
+.custom-search .MuiInputBase-input {
+  color: inherit;
+  width: 100%;
+  padding: 8px 16px;
+  transition: width 0.3s ease;
+}
+
+.custom-search-icon {
+  padding: 8px 16px;
+  height: 100%;
+  position: absolute;
+  pointer-events: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 0;
+  left: 0;
+  background-color: #a7aeb3; 
+  color: #ffffff; 
+
+  @media (min-width: 600px) {
       left: 120px; 
-    }
-
-    .custom-search-icon {
-
-left :5rem;
-    position: absolute;
-
-    }
-
-
   }
-  
+
+  @media (min-width: 960px) {
+      left: 5rem; /* Adjust based on your layout */
+  }
+}
+
 
 
    

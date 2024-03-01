@@ -110,7 +110,7 @@ export const Carddata = [
       "He bends! He stretches! He even ties in knots, but always returns to his original shape!Plants are living organisms that grow from soil and use photosynthesis to produce their own food. They are one of five kingdoms of living things, and are autotrophic eukaryotes, meaning they have complex cells and make their own food.",
     price: "219",
     img: Ic1,
-    Title: "   5 Best Fragrant Plants 5 Best Fragrant Plants",
+    Title: "   5 Best Fragrant Plants",
     Value: "2",
   },
   {
@@ -120,7 +120,7 @@ export const Carddata = [
       "He bends! He stretches! He even ties in knots, but always returns to his original shape!Plants are living organisms that grow from soil and use photosynthesis to produce their own food. They are one of five kingdoms of living things, and are autotrophic eukaryotes, meaning they have complex cells and make their own food.",
     price: "324",
     img: Ic2,
-    Title: "  5 Best Fragrant Plants 5 Best Fragrant Plants",
+    Title: "  5 Best Fragrant Plants ",
     Value: "3",
   },
   {
@@ -130,7 +130,7 @@ export const Carddata = [
       "He bends! He stretches! He even ties in knots, but always returns to his original shape!Plants are living organisms that grow from soil and use photosynthesis to produce their own food. They are one of five kingdoms of living things, and are autotrophic eukaryotes, meaning they have complex cells and make their own food.",
     img: Ic3,
     price: "473",
-    Title: "      5 Best Fragrant Plants 5 Best Fragrant Plants ",
+    Title: "      5 Best Fragrant Plants ",
     Value: "5",
   },
   {
@@ -140,7 +140,7 @@ export const Carddata = [
       "He bends! He stretches! He even ties in knots, but always returns to his original shape!,Plants are living organisms that grow from soil and use photosynthesis to produce their own food. They are one of five kingdoms of living things, and are autotrophic eukaryotes, meaning they have complex cells and make their own food.",
     img: Ic4,
     price: "498",
-    Title: "   5 Best Fragrant Plants 5 Best Fragrant Plants",
+    Title: "   5 Best Fragrant Plants",
     Value: "3",
   },
   {
@@ -148,9 +148,9 @@ export const Carddata = [
     Name: "Teak",
     description:
       "He bends! He stretches! He even ties in knots, but always returns to his original shape!Plants are living organisms that grow from soil and use photosynthesis to produce their own food. They are one of five kingdoms of living things, and are autotrophic eukaryotes, meaning they have complex cells and make their own food.",
-    img: Ic5,
+    img: Ic2,
     price: "123",
-    Title: "   5 Best Fragrant Plants 5 Best Fragrant Plants ",
+    Title: "   5 Best Fragrant Plants ",
     Value: "4",
   },
   {
@@ -158,9 +158,9 @@ export const Carddata = [
     Name: "Rose",
     description:
       "He bends! He stretches! He even ties in knots, but always returns to his original shape!Plants are living organisms that grow from soil and use photosynthesis to produce their own food. They are one of five kingdoms of living things, and are autotrophic eukaryotes, meaning they have complex cells and make their own food.",
-    img: Ic5,
+    img: Ic1,
     price: "123",
-    Title: "   5 Best Fragrant Plants 5 Best Fragrant Plants ",
+    Title: "   5 Best Fragrant Plants ",
     Value: "4",
   },
   {
@@ -168,9 +168,9 @@ export const Carddata = [
     Name: "Teak",
     description:
       "He bends! He stretches! He even ties in knots, but always returns to his original shape!Plants are living organisms that grow from soil and use photosynthesis to produce their own food. They are one of five kingdoms of living things, and are autotrophic eukaryotes, meaning they have complex cells and make their own food.",
-    img: Ic5,
+    img: Ic4,
     price: "123",
-    Title: "   5 Best Fragrant Plants 5 Best Fragrant Plants ",
+    Title: "   5 Best Fragrant Plants ",
     Value: "4",
   },
   {
@@ -180,7 +180,7 @@ export const Carddata = [
       "He bends! He stretches! He even ties in knots, but always returns to his original shape!Plants are living organisms that grow from soil and use photosynthesis to produce their own food. They are one of five kingdoms of living things, and are autotrophic eukaryotes, meaning they have complex cells and make their own food.",
     img: Ic5,
     price: "123",
-    Title: "   5 Best Fragrant Plants 5 Best Fragrant Plants ",
+    Title: "   5 Best Fragrant Plants ",
     Value: "4",
   },
   {
@@ -188,9 +188,9 @@ export const Carddata = [
     Name: "Rose",
     description:
       "He bends! He stretches! He even ties in knots, but always returns to his original shape!Plants are living organisms that grow from soil and use photosynthesis to produce their own food. They are one of five kingdoms of living things, and are autotrophic eukaryotes, meaning they have complex cells and make their own food.",
-    img: Ic5,
+    img: Ic2,
     price: "123",
-    Title: "   5 Best Fragrant Plants 5 Best Fragrant Plants ",
+    Title: "   5 Best Fragrant Plants ",
     Value: "4",
   },
   {
@@ -198,9 +198,29 @@ export const Carddata = [
     Name: "Sun",
     description:
       "He bends! He stretches! He even ties in knots, but always returns to his original shape!Plants are living organisms that grow from soil and use photosynthesis to produce their own food. They are one of five kingdoms of living things, and are autotrophic eukaryotes, meaning they have complex cells and make their own food.",
-    img: Ic5,
+    img: Ic1,
     price: "123",
-    Title: "   5 Best Fragrant Plants 5 Best Fragrant Plants ",
+    Title: "   5 Best Fragrant Plants ",
+    Value: "4",
+  },
+  {
+    id: "11",
+    Name: "Sun",
+    description:
+      "He bends! He stretches! He even ties in knots, but always returns to his original shape!Plants are living organisms that grow from soil and use photosynthesis to produce their own food. They are one of five kingdoms of living things, and are autotrophic eukaryotes, meaning they have complex cells and make their own food.",
+    img: Ic3,
+    price: "123",
+    Title: "   5 Best Fragrant Plants ",
+    Value: "4",
+  },
+  {
+    id: "12",
+    Name: "Sun",
+    description:
+      "He bends! He stretches! He even ties in knots, but always returns to his original shape!Plants are living organisms that grow from soil and use photosynthesis to produce their own food. They are one of five kingdoms of living things, and are autotrophic eukaryotes, meaning they have complex cells and make their own food.",
+    img: Ic1,
+    price: "123",
+    Title: "   5 Best Fragrant Plants ",
     Value: "4",
   },
 ];

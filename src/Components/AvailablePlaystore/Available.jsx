@@ -11,7 +11,7 @@ const Available = () => {
     <Box className="Textcontainer">
       <Box className="TextBox">
         <Typography   sx={{color:Theme.palette.primary.light}}  className="Text">
-          Happiness is availing great offers on Nurserylive App!
+          Happiness is availing great offers on NurseryTree App!
         </Typography>
         <Box className="Imagges">
           <img src={ImgApple} alt="" />

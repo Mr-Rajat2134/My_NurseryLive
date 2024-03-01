@@ -27,7 +27,9 @@
   /* Apply styles to the ImageList container */
   .MasonryImageList-container {
     width: 100%;
-    margin-top: 2rem;
+  /* margin: 0; */
+    margin-top: 3rem;
+    /* background: #000; */
   }
   
   /* Apply styles to the ImageList items */
@@ -39,18 +41,30 @@
   /* Apply styles to the box containing the ImageList */
   .MasonryImageList-box {
     min-height: 450px;
-    padding: 2rem;
-    border-radius: 2rem;
+    padding: 3rem;
+    /* border-radius: 2rem; */
     /* background-color: #3f51b5; Change the background color */
     position: relative;
+
   }
   
   /* Apply styles to the title */
   .MasonryImageList-title {
     text-align: center;
-    margin-bottom: 1rem;
-    color: #fff; /* Change the text color */
+    font-size: 2.2rem;
+    color: #0BB00C;
+    /* margin-left: rem; */
+    font-weight: 500;
+    /* margin-bottom: 1rem; */
   }
+
+
+  .spn_hover  {
+    color: black;
+      }
+      .spn_hover:hover {
+        color: crimson;
+          }
   
   /* Apply styles to the ImageList itself */
   .MasonryImageList-list {

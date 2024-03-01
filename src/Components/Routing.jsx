@@ -10,11 +10,13 @@ const Routing = () => {
   return (
     <>
       <Routes>
+      <Route path="/singleproducts/:productId" element={<SingleProducts />} />
         <Route path="/" element={<Allmodules />} />
         {/* <Route path="/addcart" element={} /> */}
+      
         <Route exact path="/addCart" element={() => <AddCart cartItems={<Cart />} />} />
     
-        <Route path="/singleproducts/:productId" element={<SingleProducts />} />
+       
       </Routes>
     </>
   );

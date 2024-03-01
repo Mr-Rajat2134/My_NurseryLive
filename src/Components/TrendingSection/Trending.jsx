@@ -11,7 +11,8 @@ const Trending = () => {
     <>
       <Box className="Trending">
         <Box className="box">
-        <p className="Heading">Trending</p>
+        <p className="Heading">Trending  <span className="spn_Hover"   > Products</span>  </p>
+
           {/* <p className="Heading">Trending</p> */}
         </Box>
        

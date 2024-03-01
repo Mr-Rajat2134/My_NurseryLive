@@ -1,66 +1,44 @@
-/* .Trending {
-  min-height: 80vh;
-
-  margin-top: 5rem;
-  background: white;
-}
-
-.box {
-  height: 5rem;
-  width: 100%;
-
-  border: 1px soild rgb(109, 53, 53);
-  top: 2rem;
-  position: relative;
-}
-
-.Heading {
-  text-align: center;
-  font-size: 1.4rem;
-}
-
-.InerBox {
-  min-height: 60vh;
-
-  padding: 1rem;
-  text-align: center;
-  display: flex;
-  justify-content: space-between;
-}
-
-.InerBox img {
-  margin-top: 2rem;
-  width: 17rem;
-  min-height: 17rem;
-}
-
-.title {
-  display: flex;
-} */
 
 
 .Trending {
     min-height: 80vh;
     /* margin-top: 5rem; */
-    background: white;
+    /* background: rgb(249, 219, 219); */
+    padding-left: 3rem;
+    padding-right: 3rem;
+
   }
   
   .box {
     /* height: 5rem; */
     width: 100%;
     /* border: 1px solid rgb(109, 53, 53); */
-    top: 1rem;
+    /* top: 1rem; */
+
     position: relative;
+    /* padding: 1rem; */
   }
+
+
+
+  .spn_Hover  {
+color: black;
+  }
+  .spn_Hover:hover {
+    color: crimson;
+      }
   
   .Heading {
     text-align: center;
-    font-size: 2rem;
+    font-size: 2.2rem;
+    color: #0BB00C;
+    /* margin-left: 2rem; */
+    font-weight: 500;
   }
   
   .InerBox {
     min-height: 60vh;
-    padding: 1rem;
+    /* padding: 1rem; */
     text-align: center;
     display: flex;
     flex-wrap: wrap; /* Enable wrapping for small screens */
@@ -99,5 +77,18 @@ cursor: pointer;
     .InerBox img {
       margin-top: 1rem; /* Adjust spacing between images */
     }
+
+    .Heading {
+      text-align: center;
+      font-size: 20px;
+      margin-right: 1.5rem;
+      /* color: crimson; */
+      /* margin-left: 2.5rem; */
+      /* font-weight: 500; */
+
+
+    }
+
+
   }
   
