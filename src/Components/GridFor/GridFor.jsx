@@ -77,7 +77,7 @@ import ImageListItem from "@mui/material/ImageListItem";
 import Theme from "../../Theme";
 import { Divider, Grid, Typography } from "@mui/material";
 import "./Gridfor.css"; // Import the CSS file
-import CareAdviser from "../CareAdviser/careAdviser";
+// import CareAdviser from "../CareAdviser/careAdviser";
 import { TypeAnimation } from "react-type-animation";
 
 export default function MasonryImageList() {
@@ -151,8 +151,7 @@ export default function MasonryImageList() {
   
 
     </Box>
-    {/* <Divider sx={{width:'50rem',   display:{sm:'none',md:'block'  ,lg:'block'} ,color:'ActiveBorder'   }} /> */}
-    <CareAdviser/>
+   
       </>
  
   );

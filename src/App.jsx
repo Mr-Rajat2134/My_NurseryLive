@@ -9,6 +9,7 @@ import Slider from "./Components/Slider/Slider";
 import { Box, Grid } from "@mui/material";
 import Banners from "./Components/Banner/Banners";
 import Products from "./Components/Productsall/Products";
+import PageNotFound from "./Error/PageNotFound";
 // import Display from "./Components/DisplayItems/Display";
 const App = () => {
   return (
@@ -19,6 +20,7 @@ const App = () => {
       {/* <Banners /> */}
       {/* <Products /> */}
       <Footer />
+    
     </>
   );
 };

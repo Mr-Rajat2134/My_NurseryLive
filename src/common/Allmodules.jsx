@@ -11,14 +11,13 @@
 // const Allmodules = () => {
 //   return (
 //     <>
-    
+
 //       <Slider />
 //       <Homesection />
 //       <Display/>
-      
+
 //         <PlantCards />
 //         <PlantCards />
-     
 
 //       <Trending />
 
@@ -29,8 +28,6 @@
 // };
 
 // export default Allmodules;
-
-
 
 import React from "react";
 import Homesection from "../Components/Homesection/Homesection";
@@ -45,24 +42,22 @@ import Display from "../Components/DisplayItems/Display";
 import Navbarr from "../Components/Navbar/Navbarr";
 import Header from "../Components/Header/Header";
 import ClintReview from "../Components/ClintReview/ClintReview";
+import CareAdviser from "../Components/CareAdviser/careAdviser";
 
 const Allmodules = () => {
   return (
     <>
-    {/* <Navbarr/> */}
-    {/* <Header/> */}
       <Slider />
       <Homesection />
-      <Display/>
-      
-        <PlantCards />
-        {/* <PlantCards /> */}
-     
+      <Display />
+
+      <PlantCards />
 
       <Trending />
 
       <GridFor />
-      <ClintReview/>
+      <CareAdviser />
+      <ClintReview />
       <Available />
     </>
   );

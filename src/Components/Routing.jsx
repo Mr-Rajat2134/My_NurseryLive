@@ -12,10 +12,11 @@ const Routing = () => {
       <Routes>
       <Route path="/" element={<Allmodules />} />
       <Route path="/singleproducts/:productId" element={<SingleProducts />} />
+
        
         {/* <Route path="/addcart" element={} /> */}
       
-        <Route exact path="/addCart" element={() => <AddCart cartItems={<Cart />} />} />
+        <Route path="/addCart" element={<Cart />} />
     
        
       </Routes>
