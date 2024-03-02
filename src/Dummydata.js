@@ -247,3 +247,74 @@ export const Bcircledata = [
     Title: "Month Wise Gardening-upto 65% off",
   },
 ];
+
+
+
+export const Customers = [
+
+
+
+  {
+      id:1,
+      Image:'',
+      Name:'Kalpna',
+      Rating:'2',
+      Comments:"Awesome best quality I'm using since from last 5 years and they are very good Must purchase your customised Gifts as I also adding pic my mobile clarity is not that much good but product is HD",
+  
+  
+  
+  },
+  {
+      id:1,
+      Image:'',
+      Name:'Rajat',
+      Rating:'2',
+      Comments:"Awesome best quality I'm using since from last 5 years and they are very good Must purchase your customised Gifts as I also adding pic my mobile clarity is not that much good but product is HD",
+  
+  
+  
+  },
+  {
+      id:1,
+      Image:'',
+      Name:'Suraj',
+      Rating:'2',
+      Comments:"Awesome best quality I'm using since from last 5 years and they are very good Must purchase your customised Gifts as I also adding pic my mobile clarity is not that much good but product is HD",
+  
+  
+  
+  },
+  {
+      id:1,
+      Image:'',
+      Name:'Aditya',
+      Rating:'2',
+      Comments:"Awesome best quality I'm using since from last 5 years and they are very good Must purchase your customised Gifts as I also adding pic my mobile clarity is not that much good but product is HD",
+  
+  
+  
+  },
+  {
+      id:1,
+      Image:'',
+      Name:'Rahul',
+      Rating:'2',
+      Comments:"Awesome best quality I'm using since from last 5 years and they are very good Must purchase your customised Gifts as I also adding pic my mobile clarity is not that much good but product is HD",
+  
+  
+  
+  },
+  {
+      id:1,
+      Image:'',
+      Name:'Ashu',
+      Rating:'2',
+      Comments:"Awesome best quality I'm using since from last 5 years and they are very good Must purchase your customised Gifts as I also adding pic my mobile clarity is not that much good but product is HD",
+  
+  
+  
+  },
+  
+  
+  
+]

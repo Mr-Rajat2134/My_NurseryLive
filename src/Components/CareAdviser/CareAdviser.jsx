@@ -3,9 +3,14 @@ import "./CareAdviser.css";
 import InspirationIMG1 from "../images/Adviser.jpg";
 import { Button } from "@mui/material";
 import { TypeAnimation } from "react-type-animation";
+import parallaxx from "../images/parallax2.jpg";
+import { Parallax } from "react-parallax";
 
 const CareAdviser = () => {
   return (
+
+
+    <Parallax   blur={0} bgImage={parallaxx} strength={200}>
     <div id="IdeasInspiration" className="IdeasInspirationContainer">
       <div className="IdeasInspiration_Text">
       <TypeAnimation
@@ -19,7 +24,7 @@ const CareAdviser = () => {
       ]}
       // wrapper="span"
       speed={30}
-      
+      className=""
       style={{ fontSize: '3em', display: 'inline-block', fontWeight:'700'   }}
       repeat={Infinity}
     />
@@ -35,7 +40,7 @@ const CareAdviser = () => {
       ]}
       // wrapper="span"
       speed={30}
-      
+      // className="Animation2"
       style={{ fontSize: '3em', display: 'inline-block', fontWeight:'700', color:'black'  }}
       repeat={Infinity}
     />
@@ -67,6 +72,7 @@ const CareAdviser = () => {
         <img src={InspirationIMG1} alt="Ideas and Inspiration" />
       </div>
     </div>
+    </Parallax>
   );
 };
 

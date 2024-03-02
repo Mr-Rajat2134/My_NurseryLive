@@ -4,7 +4,8 @@ import { Box } from "@mui/material";
 import Theme from "../../Theme";
 import { data } from "../../Dummydata";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Autoplay, Navigation } from "swiper/modules";
+import { Autoplay, Navigation, } from "swiper/modules";
+import { Parallax } from "react-parallax";
 
 const Homesection = () => {
   const theme = Theme;
@@ -13,7 +14,7 @@ const Homesection = () => {
   useEffect(() => {
     const handleResize = () => {
       if (window.innerWidth < theme.breakpoints.values.sm) {
-        setSwiperSlidesPerView(4);
+        setSwiperSlidesPerView(3);
       } else {
         setSwiperSlidesPerView(8);
       }
@@ -30,9 +31,11 @@ const Homesection = () => {
 
   const slides = data.map((item) => (
     <SwiperSlide key={item.id}>
-      <Box   className="top">
-        <img src={item.img} className="img" alt={`Slide ${item.id}`} />
+      
+        <Box   className="top">
+        <img src={item.img} className="img" alt={`Slide ${item.id}`}   c    />
       </Box>
+ 
     </SwiperSlide>
   ));
 
@@ -40,7 +43,7 @@ const Homesection = () => {
     <Swiper
       modules={[Navigation, Autoplay]}
       className="mySwiper"
-      spaceBetween={1}
+      spaceBetween={0}
       slidesPerView={swiperSlidesPerView}
       pagination={{ clickable: true }}
       autoplay={{
@@ -54,3 +57,5 @@ const Homesection = () => {
 };
 
 export default Homesection;
+
+

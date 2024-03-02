@@ -1,45 +1,31 @@
-.custom-search {
-  position: relative;
-  border-radius: 4px;
-  background-color: rgba(0, 0, 0, 0.1);
-  transition: background-color 0.3s ease;
-  width: 100%;
 
-  @media (min-width: 600px) {
-      margin-left: 11px; 
-      width: auto;
-  }
-}
 
-.custom-search .MuiInputBase-input {
-  color: inherit;
-  width: 100%;
-  padding: 8px 16px;
-  transition: width 0.3s ease;
-}
-
-.custom-search-icon {
-  padding: 8px 16px;
-  height: 100%;
-  position: absolute;
-  pointer-events: none;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  top: 0;
-  left: 0;
-  background-color: #a7aeb3; 
-  color: #ffffff; 
-
-  @media (min-width: 600px) {
-      left: 120px; 
-  }
-
-  @media (min-width: 960px) {
-      left: 5rem; /* Adjust based on your layout */
-  }
+.img_logo {
+  width: 13rem; /* Default width for the logo */
 }
 
 
 
-   
+  /* Responsive styles for smaller screens (phones) */
+  @media only screen and (max-width: 600px) {
+    .img_logo {
+      width: 5rem;
+      margin-top: 5px;
+      /* display: inline-block; */
+    
+
+
+     
+    
+    }
+  }
+
+  /* Responsive styles for small screens (tablets) */
+  @media only screen and (min-width: 601px) and (max-width: 900px) {
+    .img_logo {
+      width: 80%; /* Adjust the width for tablets */
+    }
+  }
+
+
+

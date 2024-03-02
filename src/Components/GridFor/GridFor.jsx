@@ -151,6 +151,7 @@ export default function MasonryImageList() {
   
 
     </Box>
+    {/* <Divider sx={{width:'50rem',   display:{sm:'none',md:'block'  ,lg:'block'} ,color:'ActiveBorder'   }} /> */}
     <CareAdviser/>
       </>
  

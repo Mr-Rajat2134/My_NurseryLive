@@ -1,0 +1,64 @@
+/* Add these styles to your CSS file */
+
+.customerFeedbackCard {
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 50%   ;
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    background: linear-gradient(#e66465, #9198e5);
+  }
+  
+  .customerRating {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .star {
+    color: gold;
+  }
+  
+  .customerName {
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .customerComments {
+    margin-top: 1rem;
+    font-size: 12px;
+    font-style: normal;
+  }
+
+
+
+  .customerFeedbackCard {
+    animation: grow 8s  infinite;
+  }
+  @keyframes grow {
+    from { transform: scale(0.5); }
+    to { transform: scale(1); }
+
+  } 
+  
+  /* Responsive Styles */
+  @media screen and (max-width: 768px) {
+    .customerFeedbackCard {
+     height: 200px;
+        width: 200px; /* Make the card take full width on smaller screens */
+        margin-left: 3rem;
+    }
+  
+    .customerRating {
+      font-size: 18px; /* Adjust font size for smaller screens */
+    }
+  
+    .customerName {
+      font-size: 20px; /* Adjust font size for smaller screens */
+    }
+  
+    .customerComments {
+      font-size: 12px; /* Adjust font size for smaller screens */
+    }
+  }
+  

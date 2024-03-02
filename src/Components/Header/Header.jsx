@@ -31,6 +31,7 @@ import TwitterIcon from '@mui/icons-material/Twitter';
 import YouTubeIcon from '@mui/icons-material/YouTube';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import Navbarr from "../Navbar/Navbarr";
+import './Header.css'
 
 
 
@@ -105,8 +106,9 @@ useEffect(() => {
   marginLeft: 0,
   width: '100%',
   [theme.breakpoints.up('sm')]: {
-    marginLeft: theme.spacing(3),
+    marginLeft: theme.spacing(1),
     width: 'auto',
+    
   },
 }));
 
@@ -140,7 +142,7 @@ const StyledInputBase = styled(InputBase)(({ theme }) => ({
 
 
     
-        <Box  >
+        <div  className="Flex__box"  >
         
   
 
@@ -187,7 +189,7 @@ position:'sticky'
             }}
           >
             <Link to="/">
-              <img src={HeaderLOGO} alt=""  style={{width:'13rem'}}  />
+              <img src={HeaderLOGO} alt=""   className="img_logo"    />
             </Link>
           </Typography>
 
@@ -274,7 +276,7 @@ position:'sticky'
           {/* Add more items as needed... */}
         </List>
       </Drawer>
-    </Box>
+    </div>
     </>
   
   );

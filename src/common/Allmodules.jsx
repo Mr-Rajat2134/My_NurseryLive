@@ -42,21 +42,27 @@ import GridFor from "../Components/GridFor/GridFor";
 import Slider from "../Components/Slider/Slider";
 import { Box, Typography } from "@mui/material";
 import Display from "../Components/DisplayItems/Display";
+import Navbarr from "../Components/Navbar/Navbarr";
+import Header from "../Components/Header/Header";
+import ClintReview from "../Components/ClintReview/ClintReview";
+
 const Allmodules = () => {
   return (
     <>
-    
+    {/* <Navbarr/> */}
+    {/* <Header/> */}
       <Slider />
       <Homesection />
       <Display/>
       
         <PlantCards />
-        <PlantCards />
+        {/* <PlantCards /> */}
      
 
       <Trending />
 
       <GridFor />
+      <ClintReview/>
       <Available />
     </>
   );
