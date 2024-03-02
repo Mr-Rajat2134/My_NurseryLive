@@ -36,7 +36,7 @@ import Display from "../Components/DisplayItems/Display";
 import PlantCards from "../Components/PlantCards/PlantCards";
 import Trending from "../Components/TrendingSection/Trending";
 import GridFor from "../Components/GridFor/GridFor";
-import CareAdviser from "../Components/CareAdviser/careAdviser";
+import CareAdviser from "../Components/CareAdviser/CareAdviser";
 import ClintReview from "../Components/ClintReview/ClintReview";
 import Available from "../Components/AvailablePlaystore/Available";
 
