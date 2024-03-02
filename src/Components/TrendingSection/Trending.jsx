@@ -7,7 +7,7 @@ import Theme from "../../Theme";
 import { TypeAnimation } from "react-type-animation";
 import { Parallax } from "react-parallax";
 
-import CareAdviser from "../CareAdviser/careAdviser";
+
 
 const Trending = () => {
   const { palette } = Theme;
