@@ -30,19 +30,16 @@
 // export default Allmodules;
 
 import React from "react";
+import Slider from "../Components/Slider/Slider";
 import Homesection from "../Components/Homesection/Homesection";
-import MainSlider from "../Components/Slider/MainSlider";
-import Available from "../Components/AvailablePlaystore/Available";
+import Display from "../Components/DisplayItems/Display";
 import PlantCards from "../Components/PlantCards/PlantCards";
 import Trending from "../Components/TrendingSection/Trending";
 import GridFor from "../Components/GridFor/GridFor";
-import Slider from "../Components/Slider/Slider";
-import { Box, Typography } from "@mui/material";
-import Display from "../Components/DisplayItems/Display";
-import Navbarr from "../Components/Navbar/Navbarr";
-import Header from "../Components/Header/Header";
-import ClintReview from "../Components/ClintReview/ClintReview";
 import CareAdviser from "../Components/CareAdviser/careAdviser";
+import ClintReview from "../Components/ClintReview/ClintReview";
+import Available from "../Components/AvailablePlaystore/Available";
+
 
 const Allmodules = () => {
   return (
