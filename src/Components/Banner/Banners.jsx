@@ -42,7 +42,7 @@
 
 
 import React from 'react';
-import { Button, Grid, Paper, Typography } from '@mui/material';
+import { Box, Button, Grid, Paper, Typography } from '@mui/material';
 import Banner from '../images/Banners/Banner_1.jpg';
 
 
@@ -55,14 +55,19 @@ import Theme from '../../Theme';
 
 const BannerGrid = () => {
   return (
+    <>
+    <Box sx={{marginTop:'3rem'}} >
+    <Typography sx={{textAlign:'center',marginTop:'2rem',fontSize:'2rem',color:Theme.palette.primary.light,}}>Popular</Typography> 
     <Grid sx={{padding:'3rem'}}  container spacing={2}>
+
+   
       <Grid item xs={12} sm={6}  >
       <Paper className="banner-paper">
      
           <img src={Banner} alt="Banner 1" className="banner-image" />
           <div className="banner-overlay">
-          <Typography   sx={{color:Theme.palette.primary.main, textAlign:'left',alignContent:'left',marginBottom:'1rem', lineHeight:'17px'}} >Lorem ipsum dolor sit, amet consectetur adipisicing elit. Pariatur quas quae iure natus dignissimos? Voluptate ex deserunt sed quidem sunt ipsa iusto minima, nihil incidunt corrupti cupiditate nobis quas animi!</Typography>
-            <Button variant="contained" color="primary">Shop Now</Button>
+          <Typography   sx={{color:Theme.palette.primary.main, textAlign:'center',alignContent:'left',marginBottom:'1rem', lineHeight:'17px'}} >Lorem ipsum dolor sit, amet consectetur adipisicing elit. Pariatur quas quae iure natus dignissimos? Voluptate ex deserunt sed quidem sunt ipsa iusto minima, nihil incidunt corrupti cupiditate nobis quas animi!</Typography>
+            <Button     variant="contained" color="primary">Shop Now</Button>
           </div>
           </Paper>
       </Grid>
@@ -70,7 +75,7 @@ const BannerGrid = () => {
         <Paper className="banner-paper">
           <img src={Banner2} alt="Banner 2" className="banner-image" />
           <div className="banner-overlay">
-          <Typography   sx={{color:Theme.palette.primary.main, textAlign:'left',alignContent:'left',marginBottom:'1rem', lineHeight:'17px'}} >Lorem ipsum dolor sit, amet consectetur adipisicing elit. Pariatur quas quae iure natus dignissimos? Voluptate ex deserunt sed quidem sunt ipsa iusto minima, nihil incidunt corrupti cupiditate nobis quas animi!</Typography>
+          <Typography   sx={{color:Theme.palette.primary.main, textAlign:'center',alignContent:'left',marginBottom:'1rem', lineHeight:'17px'}} >Lorem ipsum dolor sit, amet consectetur adipisicing elit. Pariatur quas quae iure natus dignissimos? Voluptate ex deserunt sed quidem sunt ipsa iusto minima, nihil incidunt corrupti cupiditate nobis quas animi!</Typography>
             <Button variant="contained" color="primary">Shop Now</Button>
           </div>
         </Paper>
@@ -79,7 +84,7 @@ const BannerGrid = () => {
         <Paper className="banner-paper">
           <img src={Banner3} alt="Banner 3" className="banner-image" />
           <div className="banner-overlay">
-          <Typography   sx={{color:Theme.palette.primary.main, textAlign:'left',alignContent:'left',marginBottom:'1rem', lineHeight:'17px'}} >Lorem ipsum dolor sit, amet consectetur adipisicing elit. Pariatur quas quae iure natus dignissimos? Voluptate ex deserunt sed quidem sunt ipsa iusto minima, nihil incidunt corrupti cupiditate nobis quas animi!</Typography>
+          <Typography   sx={{color:Theme.palette.primary.main, textAlign:'center',alignContent:'left',marginBottom:'1rem', lineHeight:'17px'}} >Lorem ipsum dolor sit, amet consectetur adipisicing elit. Pariatur quas quae iure natus dignissimos? Voluptate ex deserunt sed quidem sunt ipsa iusto minima, nihil incidunt corrupti cupiditate nobis quas animi!</Typography>
             <Button variant="contained" color="primary">Shop Now</Button>
           </div>
         </Paper>
@@ -94,6 +99,8 @@ const BannerGrid = () => {
         </Paper>
       </Grid>
     </Grid>
+    </Box>
+    </>
   );
 };
 

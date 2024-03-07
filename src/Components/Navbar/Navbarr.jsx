@@ -5,14 +5,26 @@ import TwitterIcon from '@mui/icons-material/Twitter';
 import YouTubeIcon from '@mui/icons-material/YouTube';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import { Box } from "@mui/material";
+import { Link, Navigate, useNavigate } from "react-router-dom";
 
 const Navbarr = () => {
+
+
+  // const navigate = useNavigate("/")
+
   return (
+    
     <div className="Navbar"    >
       <div className="Right">
         <button className="btnReward">Reward</button>
+
+      
         <ul   >
-          <li>Help</li>
+        <Link to='/pageNotFound'>
+          <li 
+          //  onClick={navigate("/pageNotFound")}   
+            >Help</li>
+            </Link>
           <li>Track Order</li>
           <li>Order</li>
           <li>WhisList</li>

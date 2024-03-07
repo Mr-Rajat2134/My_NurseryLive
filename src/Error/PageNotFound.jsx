@@ -1,5 +1,7 @@
 import React from 'react'
 import './pageNotFound.css'
+import { Button } from '@mui/material'
+import { Link } from 'react-router-dom'
 const PageNotFound = () => {
   return (
     <section className="page_404">
@@ -13,13 +15,19 @@ const PageNotFound = () => {
             <div className="contant_box_404">
               <h3 className="h2">Look like you're lost</h3>
               <p>the page you are looking for not avaible!</p>
-              <a href="" className="link_404">
+            <Link  to="/" >
+                <Button   sx={{bgcolor:''}} variant='contained'>
                 Go to Home
-              </a>
+                </Button>
+                </Link>
+           
             </div>
           </div>
         </div>
       </div>
+
+
+      
     </div>
   </section>
   

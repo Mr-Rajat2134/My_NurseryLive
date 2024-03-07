@@ -1,7 +1,7 @@
 import React from "react";
 import "./CareAdviser.css";
 import InspirationIMG1 from "../images/Adviser.jpg";
-import { Button } from "@mui/material";
+import { Button, Typography } from "@mui/material";
 import { TypeAnimation } from "react-type-animation";
 import parallaxx from "../images/parallax2.jpg";
 import { Parallax } from "react-parallax";
@@ -10,10 +10,12 @@ const CareAdviser = () => {
   return (
 
 
-    <Parallax   blur={0} bgImage={parallaxx} strength={200}>
+    // <Parallax   blur={0} bgImage={parallaxx} strength={200}>
     <div id="IdeasInspiration" className="IdeasInspirationContainer">
+     
       <div className="IdeasInspiration_Text">
-      <TypeAnimation
+    <h1>Care  <span  className="spn_hover" > Adviser</span> </h1>
+      {/* <TypeAnimation
       sequence={[
         // Same substring at the start will only be typed out once, initially
         'NurseryTree Products' ,
@@ -27,9 +29,9 @@ const CareAdviser = () => {
       className=""
       style={{ fontSize: '3em', display: 'inline-block', fontWeight:'700'   }}
       repeat={Infinity}
-    />
+    /> */}
     <br />
-      <TypeAnimation
+      {/* <TypeAnimation
       sequence={[
         // Same substring at the start will only be typed out once, initially
         'and Products  Care' ,
@@ -43,11 +45,11 @@ const CareAdviser = () => {
       // className="Animation2"
       style={{ fontSize: '3em', display: 'inline-block', fontWeight:'700', color:'black'  }}
       repeat={Infinity}
-    />
+    /> */}
         {/* <h1>Care  <span  className="spn_hover" > Adviser</span> </h1> */}
-        <p>
+        <Typography variant="body1" sx={{}}   >
         "An Additional Plant Protection Advisor is a nation-level advisor to the Government of India. The Directorate of Plant Protection, Quarantine & Storage (DPQS) is run by the Plant Protection Adviser. The DPQS is India's National Plant Protection Organization (NPPO). The NPPO's responsibilities include"
-        </p>
+        </Typography>
 
         <div className="IdeasInspiration_list">
           <ul>
@@ -69,11 +71,15 @@ const CareAdviser = () => {
         </a>
       </div>
       <div className="IdeasInspiration_Image">
-        <img src={InspirationIMG1} alt="Ideas and Inspiration" />
+        <img src={parallaxx} alt="Ideas and Inspiration" />
       </div>
     </div>
-    </Parallax>
+    // </Parallax>
   );
 };
 
 export default CareAdviser;
+
+
+
+

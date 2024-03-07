@@ -3,23 +3,24 @@ import "./Display.css";
 import Product from "../images/Img3Card.jpg";
 import Product_two from "../images/Img4Card.jpg";
 import animation from "../images/animation.png";
-import parallaxx from "../images/parallax1.jpg";
+// import parallaxx from "../images/parallax1.jpg";
 import { Box, Button, Divider } from "@mui/material";
 // import poster from '../images/Poster.webp'
 import { TypeAnimation } from 'react-type-animation';
 import { Parallax } from "react-parallax";
 import PlantCards from "../PlantCards/PlantCards";
+import { Link } from "react-router-dom";
 
 
 
 export default function Display() {
   return (
-    <Parallax   blur={10} bgImage={parallaxx} strength={400}>
+    // <Parallax   blur={10} bgImage={parallaxx} strength={400}>
     <div id="Framed">
       
       <div className="Texts">
     
-      <TypeAnimation
+      {/* <TypeAnimation
       sequence={[
         // Same substring at the start will only be typed out once, initially
         'NurseryTree Products' ,
@@ -38,8 +39,8 @@ export default function Display() {
       style={{ fontSize: '2em', display: 'inline-block', fontWeight:'600', color:'ActiveBorder'  }}
       repeat={Infinity}
     />
-    <br />
-     <TypeAnimation
+    <br /> */}
+     {/* <TypeAnimation
       sequence={[
         // Same substring at the start will only be typed out once, initially
        
@@ -54,11 +55,11 @@ export default function Display() {
       speed={20}
       style={{ fontSize: '2em', display: 'inline-block', fontWeight:'500', color:'wheat'  }}
       repeat={Infinity}
-    />
-        {/* <h1>
+    /> */}
+        <h1>
           {" "}
           NurseryTree Products <br /> Offer Now
-        </h1> */}
+        </h1>
         <p>
           Pick from 100+ beautiful Plants. Perfect keepsake gifts for Nature.
         </p>
@@ -67,8 +68,9 @@ export default function Display() {
           {" "}
           Starts at Rs. <span>250</span>
         </h2>
-
+<Link to="/Products">
         <Button  className="animationbtn"     sx={{bgcolor:'#0BB00C'}} variant="contained"> More </Button>
+        </Link>
    
       </div>
   
@@ -96,9 +98,7 @@ export default function Display() {
 
 
 
-    {/* <Divider   sx={{marginBottom:'2rem'}}/> */}
-    {/* <PlantCards/> */}
-    </Parallax>
+
   );
 }
 

@@ -20,7 +20,7 @@ const Trending = () => {
 
       <Box className="Trending">
         <Box className="box">
-        <TypeAnimation
+        {/* <TypeAnimation
       sequence={[
         // Same substring at the start will only be typed out once, initially
         ' NurseryTree Trending' ,
@@ -36,8 +36,8 @@ const Trending = () => {
       
       style={{ fontSize: '2.5em',  fontWeight:'500',   textAlign:'center',display:'flex', justifyContent:'center', color:'#0BB00C' }}
       repeat={Infinity}
-    />
-        <TypeAnimation  
+    /> */}
+        {/* <TypeAnimation  
       sequence={[
         // Same substring at the start will only be typed out once, initially
         
@@ -54,8 +54,8 @@ const Trending = () => {
       
       style={{ fontSize: '2.2em',  fontWeight:'500',  textAlign:'center',display:'flex', justifyContent:'center', color:'black', }}
       repeat={Infinity}
-    />
-        {/* <p className="Heading">Trending  <span className="spn_Hover"   > Products</span>  </p> */}
+    /> */}
+        <p className="Heading">Trending  <span className="spn_Hover"   > Products</span>  </p>
 
           {/* <p className="Heading">Trending</p> */}
         </Box>

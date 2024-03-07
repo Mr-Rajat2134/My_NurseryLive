@@ -23,9 +23,18 @@
   }
   
   .Customerssaying_Text h1 {
-    font-weight: 500;
+    font-weight: 700;
+    cursor:default;
+    color: #0BB00C;
 
-    font-size: 3rem;
+    font-size: 2.5rem;
+  }
+
+  .spn_hove{
+    color: black;
+  }
+  .spn_hove:hover{
+    color: red;
   }
   
   p {

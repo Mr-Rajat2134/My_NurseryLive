@@ -14,7 +14,7 @@ const ClintReview = () => {
     <div id="Customerssaying">
       {/* <Divider sx={{width:'50rem',   display:{sm:'none',md:'block'  ,lg:'block'} ,color:'ActiveBorder'   }} /> */}
       <div className="Customerssaying_Text">
-      <TypeAnimation
+      {/* <TypeAnimation
       sequence={[
         // Same substring at the start will only be typed out once, initially
         'What our customers are saying' ,
@@ -32,8 +32,8 @@ const ClintReview = () => {
       
       style={{ fontSize: '2em', display: 'inline-block', fontWeight:'500', color:'#0BB00C'  }}
       repeat={Infinity}
-    />
-        {/* <h1>What our customers are saying</h1> */}
+    /> */}
+        <h1> customers are    <span  className="spn_hove">  saying</span></h1>
         <p>4.5 rating out of 24404 reviews</p>
       </div>
     

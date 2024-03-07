@@ -256,59 +256,59 @@ export const Customers = [
 
   {
       id:1,
-      Image:'',
+      Image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQifg6mQrJzV-zhfEwygJqx1JjAVOA9OJbl0aH5bVuFT2sufzxJP_vxLLGgJQ4rq7GeTVQ&usqp=CAU',
       Name:'Kalpna',
-      Rating:'2',
+      Rating:'5',
       Comments:"Awesome best quality I'm using since from last 5 years and they are very good Must purchase your customised Gifts as I also adding pic my mobile clarity is not that much good but product is HD",
   
   
   
   },
   {
-      id:1,
-      Image:'',
+      id:2,
+      Image:'https://cdn3d.iconscout.com/3d/premium/thumb/cute-funny-girl-showing-victory-sign-5609705-4665129.png?f=webp',
       Name:'Rajat',
-      Rating:'2',
+      Rating:'6',
       Comments:"Awesome best quality I'm using since from last 5 years and they are very good Must purchase your customised Gifts as I also adding pic my mobile clarity is not that much good but product is HD",
   
   
   
   },
   {
-      id:1,
-      Image:'',
+      id:3,
+      Image:'https://cdn3d.iconscout.com/3d/premium/thumb/cute-funny-girl-showing-victory-sign-5609705-4665129.png?f=webp',
       Name:'Suraj',
-      Rating:'2',
+      Rating:'4',
       Comments:"Awesome best quality I'm using since from last 5 years and they are very good Must purchase your customised Gifts as I also adding pic my mobile clarity is not that much good but product is HD",
   
   
   
   },
   {
-      id:1,
-      Image:'',
+      id:4,
+      Image:'https://cdn3d.iconscout.com/3d/premium/thumb/cute-funny-girl-showing-victory-sign-5609705-4665129.png?f=webp',
       Name:'Aditya',
-      Rating:'2',
+      Rating:'3',
       Comments:"Awesome best quality I'm using since from last 5 years and they are very good Must purchase your customised Gifts as I also adding pic my mobile clarity is not that much good but product is HD",
   
   
   
   },
   {
-      id:1,
-      Image:'',
+      id:5,
+      Image:'https://cdn3d.iconscout.com/3d/premium/thumb/cute-funny-girl-showing-victory-sign-5609705-4665129.png?f=webp',
       Name:'Rahul',
-      Rating:'2',
+      Rating:'6',
       Comments:"Awesome best quality I'm using since from last 5 years and they are very good Must purchase your customised Gifts as I also adding pic my mobile clarity is not that much good but product is HD",
   
   
   
   },
   {
-      id:1,
-      Image:'',
+      id:6,
+      Image:'https://cdn3d.iconscout.com/3d/premium/thumb/cute-funny-girl-showing-victory-sign-5609705-4665129.png?f=webp',
       Name:'Ashu',
-      Rating:'2',
+      Rating:'8',
       Comments:"Awesome best quality I'm using since from last 5 years and they are very good Must purchase your customised Gifts as I also adding pic my mobile clarity is not that much good but product is HD",
   
   

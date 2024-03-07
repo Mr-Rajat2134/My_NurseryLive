@@ -39,23 +39,29 @@ import GridFor from "../Components/GridFor/GridFor";
 import CareAdviser from "../Components/CareAdviser/CareAdviser";
 import ClintReview from "../Components/ClintReview/ClintReview";
 import Available from "../Components/AvailablePlaystore/Available";
+import Section_one from "../Components/section_one/Section_one";
+import Banner from '../Components/Banner/Banners'
 
 
 const Allmodules = () => {
   return (
     <>
+  
+
       <Slider />
       <Homesection />
       <Display />
-
-      <PlantCards />
+<Section_one/>
+      {/* <PlantCards /> */}
 
       <Trending />
 
       <GridFor />
       <CareAdviser />
+      <Banner/>
       <ClintReview />
       <Available />
+ 
     </>
   );
 };

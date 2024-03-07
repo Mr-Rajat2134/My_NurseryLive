@@ -7,13 +7,15 @@
   
   .IdeasInspiration_Text {
     padding: 2rem;
-    margin-top: 3rem;
-    margin-left: 3rem;
+    /* margin-top: 3rem; */
+    margin-left: 5rem;
     color: #0BB00C;
+
+
   }
   
-  .IdeasInspiration_Text  {
-    font-size: 16px;
+  .IdeasInspiration_Text h1 {
+    font-size: 2.5rem;
     /* position: absolute; */
     /* rotate: -18deg; */
     /* left: 20rem; */
@@ -27,10 +29,11 @@
   
   .IdeasInspiration_Text p {
     color: rgb(14, 2, 2);
-    text-align: justify;
+    text-align:justify;
     margin-top: 1rem;
     font-size: 14px;
     max-width: 350px; 
+
     animation-duration: 3s;
   animation-name: slidein;
     /* margin-top: 3rem; */
@@ -56,14 +59,14 @@
   
   .IdeasInspiration_Image {
     flex: 1;
-    margin-top: 5rem;
+    /* margin-top: rem; */
     text-align: center;
   }
   
   
-  .IdeasInspiration_Image img {
+  .IdeasInspiration_Image  img {
     width: 100%;
-    
+  /* margin-bottom: 3rem; */
     border-radius: 10px;
     height: auto;
     animation: slideUp 1.5s ease-in-out infinite alternate;

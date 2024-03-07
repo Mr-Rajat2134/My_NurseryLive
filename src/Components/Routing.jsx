@@ -5,6 +5,8 @@ import Allmodules from "../common/Allmodules";
 
 import AddCart from "../pages/AddCart/AddCart";
 import Cart from "../pages/AddCart/AddCart";
+import PageNotFound from "../Error/PageNotFound";
+import Products from "./Productsall/Products";
 
 const Routing = () => {
   return (
@@ -17,6 +19,9 @@ const Routing = () => {
         {/* <Route path="/addcart" element={} /> */}
       
         <Route path="/addCart" element={<Cart />} />
+        <Route path="/pageNotFound" element={<PageNotFound />} />
+        <Route path="/Products" element={<Products />} />
+        
     
        
       </Routes>

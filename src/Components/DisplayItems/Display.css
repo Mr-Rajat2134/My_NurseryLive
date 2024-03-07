@@ -12,7 +12,7 @@
 
 .Texts p {
   font-size: 14px;
-  color: gray;
+  color:  black;
   margin-top: 1rem;
 }
 
@@ -23,7 +23,7 @@
 }
 
 .MRP span {
-  color:wheat;
+  color:#0BB00C;
 }
 
 .poster {
@@ -92,7 +92,7 @@ margin-left: 2rem;
   animation: rotate3D 5s linear infinite;
 } */
 
-.animationbtn {
+/* .animationbtn {
   animation: gelatine 0.5s infinite;
 }
 
@@ -109,7 +109,7 @@ margin-left: 2rem;
   75% {
       transform: scale(0.95, 1.05);
   }
-}
+} */
 
 /* Keyframes for bounce-in-right animation */
 @keyframes bounce-in-right {

@@ -88,7 +88,7 @@ export default function MasonryImageList() {
     
     
      <Box className="MasonryImageList-container">
-       <TypeAnimation
+       {/* <TypeAnimation
       sequence={[
         // Same substring at the start will only be typed out once, initially
         'Garden Decor &' ,
@@ -102,9 +102,9 @@ export default function MasonryImageList() {
       
       style={{ fontSize: '2.5em',  fontWeight:'700', textAlign:'center',display:'flex', justifyContent:'center', color:'#0BB00C' }}
       repeat={Infinity}
-    />
+    /> */}
 
-      <TypeAnimation
+      {/* <TypeAnimation
       sequence={[
         // Same substring at the start will only be typed out once, initially
        
@@ -117,11 +117,11 @@ export default function MasonryImageList() {
       
       style={{ fontSize: '2em',  fontWeight:'700', textAlign:'center',display:'flex', justifyContent:'center',   }}
       repeat={Infinity}
-    />
+    /> */}
       <Box className="MasonryImageList-box">
      
-        {/* <p className="MasonryImageList-title">Garden Decor & <span className="spn_hover"> Care Adviser</span>
-        </p> */}
+        <p className="MasonryImageList-title">Garden Decor & <span className="spn_hover"> Care Adviser</span>
+        </p>
 
         <Grid container spacing={2}>
           {itemData.map((item) => (

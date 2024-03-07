@@ -1,18 +1,29 @@
 /* Add these styles to your CSS file */
 
 .customerFeedbackCard {
-    border: 1px solid #ddd;
+    /* border: 1px solid  #0BB00C; */
     padding: 20px;
-    border-radius: 50%   ;
-    width: 200px;
-    height: 200px;
+    /* border-radius: 50% 20% / 10% 40%; */
+    border-radius: 1rem;
+    width: 300px;
+    height: 250px;
     margin: 20px;
-    background: linear-gradient(#e66465, #9198e5);
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+
+    /* background: linear-gradient(#e66465, #9198e5); */
+  }
+
+
+
+  .customerFeedbackCard:hover {
+/* background:rgb(183, 181, 181); */
+border: 1px solid  #030b03;
+
   }
   
   .customerRating {
     font-size: 24px;
-    margin-bottom: 10px;
+    /* margin-bottom: 1px; */
   }
   
   .star {
@@ -21,7 +32,8 @@
   
   .customerName {
     font-weight: bold;
-    margin-bottom: 10px;
+    /* margin-bottom: 10px; */
+    margin-top: 10px;
   }
   
   .customerComments {
@@ -32,14 +44,14 @@
 
 
 
-  .customerFeedbackCard {
+  /* .customerFeedbackCard {
     animation: grow 8s  infinite;
   }
   @keyframes grow {
     from { transform: scale(0.5); }
     to { transform: scale(1); }
 
-  } 
+  }  */
   
   /* Responsive Styles */
   @media screen and (max-width: 768px) {
