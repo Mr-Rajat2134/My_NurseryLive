@@ -27,8 +27,8 @@ const PlantCards = () => {
   useEffect(() => {
     const handleResize = () => {
       if (window.innerWidth < theme.breakpoints.values.sm) {
-        marg
-        setSwiperSlidesPerView(1);
+      
+        setSwiperSlidesPerView(2);
       } else {
         setSwiperSlidesPerView(5);
       }
@@ -140,7 +140,7 @@ const PlantCards = () => {
         {Carddata.map((product) => (
           <SwiperSlide key={product.id}>
            
-            <Card  sx={{width:'200px', padding:'1rem'}}>
+            <Card  sx={{width:'190px', padding:'1rem'}}>
             <Link  style={{textDecoration:'none'}}   to={`/singleproducts/${product.id}`}>
               <CardMedia
               sx={{borderRadius:'10px'}}

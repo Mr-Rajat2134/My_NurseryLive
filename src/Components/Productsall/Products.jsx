@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Card, CardMedia, Typography, Button, Box, CardActionArea, CardContent, CardActions, Rating } from '@mui/material';
 import { Carddata } from '../../Dummydata';
 import { Palette } from '@mui/icons-material';
@@ -8,6 +8,14 @@ import PaymentIcon from '@mui/icons-material/Payment'; // Import the payment ico
 // import './Products.css'; // Import your CSS file for additional styling if needed
 
 export default function Products() {
+useEffect(()=>{
+  window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
+}    )
+
+
+
+
+
   return (
     <Box sx={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'center'   }}>
       {Carddata.map((product) => (
