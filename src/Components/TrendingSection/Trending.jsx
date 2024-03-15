@@ -1,4 +1,4 @@
-import { Box, Typography } from "@mui/material";
+import { Box, Button, Typography } from "@mui/material";
 import React from "react";
 import "./Trending.css";
 
@@ -55,7 +55,8 @@ const Trending = () => {
       style={{ fontSize: '2.2em',  fontWeight:'500',  textAlign:'center',display:'flex', justifyContent:'center', color:'black', }}
       repeat={Infinity}
     /> */}
-        <p className="Heading">Trending  <span className="spn_Hover"   > Products</span>  </p>
+        {/* <p className="Heading">Trending  Products  </p> */}
+        <Typography      sx={{ fontSize: '1.5rem', textAlign: 'center', marginBottom: '1rem' }} >Trending  Products</Typography>
 
           {/* <p className="Heading">Trending</p> */}
         </Box>
@@ -66,10 +67,15 @@ const Trending = () => {
           {Bcircledata.map((item) => (
             <Box>
               <img src={item.Image} alt="" />
-              <Typography color={palette.primary.light}>{item.Title}</Typography>
+              <Typography color={palette.primary.Textlight}>{item.Title}</Typography>
             </Box>
             ))}
         </Box>
+
+
+        <Button      variant="contained"  sx={{marginLeft:'34rem',borderRadius:'0.3rem',bgcolor: Theme.palette.primary.light ,marginTop:'2rem', '&:hover': {
+          bgcolor: Theme.palette.primary.Hoverlight,
+        } }}   >More</Button>
       </Box>
 
 

@@ -5,9 +5,13 @@ const Theme = createTheme({
     primary: {
       
        main: "#FFFFFF",
-      light: "#0BB00C",
+      // light: "#0BB00C",
+      light: "#129941",
       // light: "#FF6B6B",
-      Textlight:"#FFF700"
+      Textlight:"#00000",
+      Hoverlight:"#55d481"
+      
+
     
     },
   },

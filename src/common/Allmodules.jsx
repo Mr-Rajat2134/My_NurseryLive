@@ -41,6 +41,7 @@ import ClintReview from "../Components/ClintReview/ClintReview";
 import Available from "../Components/AvailablePlaystore/Available";
 import Section_one from "../Components/section_one/Section_one";
 import Banner from '../Components/Banner/Banners'
+import UnicProduct from "../Components/UnicProducts/UnicProduct";
 
 
 const Allmodules = () => {
@@ -48,19 +49,22 @@ const Allmodules = () => {
     <>
   
 
-      <Slider />
+      {/* <Slider /> */}
       <Homesection />
       <Display />
+
 <Section_one/>
       {/* <PlantCards /> */}
-
+<UnicProduct/>
       <Trending />
-
-      <GridFor />
-      <CareAdviser />
-      <Banner/>
-      <ClintReview />
+     
       <Available />
+      <GridFor />
+      <Banner/>
+      <CareAdviser />
+     
+      <ClintReview />
+     
  
     </>
   );

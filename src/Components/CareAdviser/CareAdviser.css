@@ -59,7 +59,7 @@
   
   .IdeasInspiration_Image {
     flex: 1;
-    /* margin-top: rem; */
+    /* margin-top: carrem; */
     text-align: center;
   }
   
@@ -69,18 +69,19 @@
   /* margin-bottom: 3rem; */
     border-radius: 10px;
     height: auto;
+    margin-top: 1rem;
     animation: slideUp 1.5s ease-in-out infinite alternate;
   }
   
  
-  @keyframes slideUp {
+  /* @keyframes slideUp {
     0% {
       transform: translateY(50px);
     }
     100% {
       transform: translateY(0);
     }
-  }
+  } */
   
   .IdeasInspiration_list {
     padding: 2rem;

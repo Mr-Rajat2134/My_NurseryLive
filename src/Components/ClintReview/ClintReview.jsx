@@ -5,7 +5,8 @@ import { TypeAnimation } from "react-type-animation";
 // import CustomerssSlider from './CustomerssSlider'
 import parallaxx from '../images/parallax.jpg'
 import { Parallax } from "react-parallax";
-import { Divider } from "@mui/material";
+import { Divider, Typography } from "@mui/material";
+import Theme from "../../Theme";
 
 
 const ClintReview = () => {
@@ -33,7 +34,10 @@ const ClintReview = () => {
       style={{ fontSize: '2em', display: 'inline-block', fontWeight:'500', color:'#0BB00C'  }}
       repeat={Infinity}
     /> */}
-        <h1> customers are    <span  className="spn_hove">  saying</span></h1>
+        {/* <h1>    <span  className="spn_hove">  saying</span></h1> */}
+        {/* <Typography     >Clint Say</Typography>
+         */}
+     <Typography sx={{textAlign:'center',marginTop:'2rem',fontSize:'2rem',color:Theme.palette.primary.Textlight,}}>Clint say </Typography> 
         <p>4.5 rating out of 24404 reviews</p>
       </div>
     

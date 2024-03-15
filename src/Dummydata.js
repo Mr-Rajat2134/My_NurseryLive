@@ -24,6 +24,13 @@ import bc1 from "../public/Assets/images/Bcircle1.webp";
 import bc2 from "../public/Assets/images/Bcircle2.webp";
 import bc3 from "../public/Assets/images/Bcircle3.webp";
 import bc4 from "../public/Assets/images/Bcircle4.webp";
+
+
+
+import PlantCare3 from "../public/Assets/images/PlantSection.webp";
+import PlantCare1 from "../public/Assets/images/PlantContainer.webp";
+import PlantCare2 from "../public/Assets/images/Foundation.webp";
+
 export const data = [
   {
     id: 1,
@@ -102,6 +109,50 @@ export const silder = [
   },
 ];
 
+export const Plant = [
+  {
+    id: "1",
+    Name: "Tobacco Plant",
+    description:
+      "He bends! He stretches! He even ties in knots, but always returns to his original shape!Plants are living organisms that grow from soil and use photosynthesis to produce their own food. They are one of five kingdoms of living things, and are autotrophic eukaryotes, meaning they have complex cells and make their own food.",
+    price: "219",
+    img: Ic1,
+    Title: "   5 Best Fragrant Plants",
+    Value: "2",
+  },
+  {
+    id: "2",
+    Name: "Spinach Plant",
+    description:
+      "He bends! He stretches! He even ties in knots, but always returns to his original shape!Plants are living organisms that grow from soil and use photosynthesis to produce their own food. They are one of five kingdoms of living things, and are autotrophic eukaryotes, meaning they have complex cells and make their own food.",
+    price: "324",
+    img: Ic2,
+    Title: "  5 Best Fragrant Plants ",
+    Value: "3",
+  },
+  {
+    id: "3",
+    Name: "Teak Plant",
+    description:
+      "He bends! He stretches! He even ties in knots, but always returns to his original shape!Plants are living organisms that grow from soil and use photosynthesis to produce their own food. They are one of five kingdoms of living things, and are autotrophic eukaryotes, meaning they have complex cells and make their own food.",
+    img: Ic3,
+    price: "473",
+    Title: "      5 Best Fragrant Plants ",
+    Value: "5",
+  },
+  {
+    id: "4",
+    Name: "Turmeric Plant",
+    description:
+      "He bends! He stretches! He even ties in knots, but always returns to his original shape!,Plants are living organisms that grow from soil and use photosynthesis to produce their own food. They are one of five kingdoms of living things, and are autotrophic eukaryotes, meaning they have complex cells and make their own food.",
+    img: Ic4,
+    price: "498",
+    Title: "   5 Best Fragrant Plants",
+    Value: "3",
+  },
+
+
+]
 export const Carddata = [
   {
     id: "1",
@@ -317,4 +368,41 @@ export const Customers = [
   
   
   
+]
+
+
+
+export const PlantCare = [
+  
+  
+  {
+id:1,
+
+Title:'Container gardening ',
+img:PlantCare1,
+Desc:"Container gardening is a soothing, practical and fun way to build opportunities and relationships with the plant kingdom. Bright and colorful points of interest are easy to create with planned spacing. A handy location near the kitchen can be a good spot for herbs, edible flowers and some vegetables. Large rows of tall potted plants create pathways while several pots of medium sized vegetation organized in a semi-circle invites chairs for a resting spot. The best thing of all though, is, taking a child to the nursery, selecting a container plant together and now we have a future gardener!",
+
+
+},
+  
+  {
+id:2,
+Title:'Foundation for Plant Care ',
+img:PlantCare2,
+Desc:"Once we have committed to our chosen plant spaces and plant selections, it is a gift to acknowledge that we now and maybe again, are local participants in the magic of photosynthesis and its Divine results. Regardless of the geographic home of any Earth family participant, we need to be aware of a few Universal aspects of plant care as a baseline to gaining practical experience. Our approach to prepare, plan, diagnose and execute ongoing horticultural care is directly related to simply prioritizing our attention to current environmental signs as they come and go.",
+
+
+},
+  
+  {
+id:3,
+Title:'PlantSection',
+img:PlantCare3,
+Desc:"Before beginning a garden project, you may have several ideas in mind for enhancing spaces with plants and it is good to take things one a step at a time. Having seen a certain plant, a particular landscape or even a picture could have grabbed your attention. Being inspired to create beauty or invoke the assistance of plants for a function comes from so many sources but it is helpful to select plants for our vision with a purpose that matches their habitat needs.",
+
+
+},
+
+
+
 ]

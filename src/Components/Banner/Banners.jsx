@@ -43,13 +43,14 @@
 
 import React from 'react';
 import { Box, Button, Grid, Paper, Typography } from '@mui/material';
-import Banner from '../images/Banners/Banner_1.jpg';
+// import Banner from '../images/Banners/Banner_1.jpg';
 
 
-import Banner3 from '../images/Banners/Banner_3.jpg';
+import Banner from '../images/Banners/Group011.jpg';
+import Banner2 from '../images/Banners/Group012.jpg';
 
-import Banner4 from '../images/Banners/Banner_5.jpg';
-import Banner2 from '../images/Banners/Banner_6.jpg';
+// import Banner4 from '../images/Banners/Banner_5.jpg';
+// import Banner2 from '../images/Banners/Banner_6.jpg';
 import './Banners.css'; 
 import Theme from '../../Theme';
 
@@ -57,7 +58,8 @@ const BannerGrid = () => {
   return (
     <>
     <Box sx={{marginTop:'3rem'}} >
-    <Typography sx={{textAlign:'center',marginTop:'2rem',fontSize:'2rem',color:Theme.palette.primary.light,}}>Popular</Typography> 
+    <Typography sx={{textAlign:'center',marginTop:'2rem',fontSize:'2rem',color:Theme.palette.primary.Textlight,}}>Nursery & Landscaping Services </Typography> 
+    <Typography sx={{textAlign:'center',marginTop:'1rem',fontSize:'0.9rem',color:Theme.palette.primary.Textlight,}}>At Heartyculture, we not only provide a vibrant selection of nurtured plants but also offer expert landscaping services to transform your outdoor spaces into lush, personalized gardens.  </Typography> 
     <Grid sx={{padding:'3rem'}}  container spacing={2}>
 
    
@@ -66,8 +68,10 @@ const BannerGrid = () => {
      
           <img src={Banner} alt="Banner 1" className="banner-image" />
           <div className="banner-overlay">
-          <Typography   sx={{color:Theme.palette.primary.main, textAlign:'center',alignContent:'left',marginBottom:'1rem', lineHeight:'17px'}} >Lorem ipsum dolor sit, amet consectetur adipisicing elit. Pariatur quas quae iure natus dignissimos? Voluptate ex deserunt sed quidem sunt ipsa iusto minima, nihil incidunt corrupti cupiditate nobis quas animi!</Typography>
-            <Button     variant="contained" color="primary">Shop Now</Button>
+          <Typography   sx={{color:Theme.palette.primary.main, textAlign:'left',alignContent:'left',marginBottom:'1rem', lineHeight:'25px',fontSize:'1.5rem',fontWeight:'700'}} >Our Nursery : Nurture 
+          your Space With our Beautiful Plants </Typography>
+          <Typography   sx={{color:Theme.palette.primary.main, textAlign:'left',alignContent:'left',marginBottom:'1rem', lineHeight:'17px'}} >Our diverse and expansive plant collection boasts an exhilarating array of verdant foliage, each meticulously cultivated to thrive in its own unique way." </Typography>
+            <Button     variant="contained"  sx={{bgcolor:Theme.palette.primary.dark}}>Shop Now</Button>
           </div>
           </Paper>
       </Grid>
@@ -75,29 +79,34 @@ const BannerGrid = () => {
         <Paper className="banner-paper">
           <img src={Banner2} alt="Banner 2" className="banner-image" />
           <div className="banner-overlay">
-          <Typography   sx={{color:Theme.palette.primary.main, textAlign:'center',alignContent:'left',marginBottom:'1rem', lineHeight:'17px'}} >Lorem ipsum dolor sit, amet consectetur adipisicing elit. Pariatur quas quae iure natus dignissimos? Voluptate ex deserunt sed quidem sunt ipsa iusto minima, nihil incidunt corrupti cupiditate nobis quas animi!</Typography>
-            <Button variant="contained" color="primary">Shop Now</Button>
+          <Typography   sx={{color:Theme.palette.primary.main, textAlign:'left',alignContent:'left',marginBottom:'1rem', lineHeight:'25px',fontSize:'1.5rem', fontWeight:'700'}} >Landscaping Services: Expertly Crafted Prices Tailored with Passion and Precision</Typography>
+          <Typography   sx={{color:Theme.palette.primary.main, textAlign:'left',alignContent:'left',marginBottom:'1rem', lineHeight:'17px'}} >Our diverse and expansive plant collection boasts an exhilarating array of verdant foliage, each meticulously cultivated to thrive in its own unique way." </Typography>
+            <Button variant="contained"   sx={{bgcolor:Theme.palette.primary.dark}}   >Shop Now</Button>
           </div>
         </Paper>
       </Grid>
-      <Grid item xs={12}   sm={6} >
+      <Grid item xs={12} sm={6}   >
         <Paper className="banner-paper">
-          <img src={Banner3} alt="Banner 3" className="banner-image" />
+          <img src={Banner2} alt="Banner 2" className="banner-image" />
           <div className="banner-overlay">
-          <Typography   sx={{color:Theme.palette.primary.main, textAlign:'center',alignContent:'left',marginBottom:'1rem', lineHeight:'17px'}} >Lorem ipsum dolor sit, amet consectetur adipisicing elit. Pariatur quas quae iure natus dignissimos? Voluptate ex deserunt sed quidem sunt ipsa iusto minima, nihil incidunt corrupti cupiditate nobis quas animi!</Typography>
-            <Button variant="contained" color="primary">Shop Now</Button>
+          <Typography   sx={{color:Theme.palette.primary.main, textAlign:'left',alignContent:'left',marginBottom:'1rem', lineHeight:'25px',fontSize:'1.5rem', fontWeight:'700'}} >Landscaping Services: Expertly Crafted Prices Tailored with Passion and Precision</Typography>
+          <Typography   sx={{color:Theme.palette.primary.main, textAlign:'left',alignContent:'left',marginBottom:'1rem', lineHeight:'17px'}} >Our diverse and expansive plant collection boasts an exhilarating array of verdant foliage, each meticulously cultivated to thrive in its own unique way." </Typography>
+            <Button variant="contained"   sx={{bgcolor:Theme.palette.primary.dark}}   >Shop Now</Button>
           </div>
         </Paper>
       </Grid>
-      <Grid item xs={12}   sm={6} >
+      <Grid item xs={12} sm={6}   >
         <Paper className="banner-paper">
-          <img src={Banner4} alt="Banner 4" className="banner-image" />
+          <img src={Banner2} alt="Banner 2" className="banner-image" />
           <div className="banner-overlay">
-          <Typography   sx={{color:Theme.palette.primary.main, textAlign:'left',alignContent:'left',marginBottom:'1rem', lineHeight:'17px'}} >Lorem ipsum dolor sit, amet consectetur adipisicing elit. Pariatur quas quae iure natus dignissimos? Voluptate ex deserunt sed quidem sunt ipsa iusto minima, nihil incidunt corrupti cupiditate nobis quas animi!</Typography>
-            <Button variant="contained" >Shop Now</Button>
+          <Typography   sx={{color:Theme.palette.primary.main, textAlign:'left',alignContent:'left',marginBottom:'1rem', lineHeight:'25px',fontSize:'1.5rem', fontWeight:'700'}} >Landscaping Services: Expertly Crafted Prices Tailored with Passion and Precision</Typography>
+          <Typography   sx={{color:Theme.palette.primary.main, textAlign:'left',alignContent:'left',marginBottom:'1rem', lineHeight:'17px'}} >Our diverse and expansive plant collection boasts an exhilarating array of verdant foliage, each meticulously cultivated to thrive in its own unique way." </Typography>
+            <Button variant="contained"   sx={{bgcolor:Theme.palette.primary.dark}}   >Shop Now</Button>
           </div>
         </Paper>
       </Grid>
+      
+      
     </Grid>
     </Box>
     </>
