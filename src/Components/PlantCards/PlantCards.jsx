@@ -27,7 +27,7 @@
 //   useEffect(() => {
 //     const handleResize = () => {
 //       if (window.innerWidth < theme.breakpoints.values.sm) {
-      
+
 //         setSwiperSlidesPerView(2);
 //       } else {
 //         setSwiperSlidesPerView(5);
@@ -59,7 +59,6 @@
 
 // <>
 
-
 // <Snackbar
 //         open={openSnackbar}
 //         autoHideDuration={3000}
@@ -78,8 +77,6 @@
 //           </React.Fragment>
 //         }
 //       />
-
-   
 
 //     <Box className="Box">
 //             <Snackbar
@@ -100,7 +97,7 @@
 //           </React.Fragment>
 //         }
 //       />
-    
+
 //       <Swiper
 //         spaceBetween={6}
 //         slidesPerView={swiperSlidesPerView}
@@ -114,7 +111,7 @@
 //       >
 //         {Carddata.map((product) => (
 //           <SwiperSlide key={product.id}>
-           
+
 //             <Card  sx={{width:'190px', padding:'1rem'}}>
 //             <Link  style={{textDecoration:'none'}}   to={`/singleproducts/${product.id}`}>
 //               <CardMedia
@@ -125,9 +122,9 @@
 //               />
 //                  </Link>
 // {/* <Box    sx={{height:'23vh',  }}> */}
-// <Typography 
+// <Typography
 
-// sx={{display:'flex', color: palette.primary.light,fontSize:'18px',mt:'1rem'}} 
+// sx={{display:'flex', color: palette.primary.light,fontSize:'18px',mt:'1rem'}}
 //  >{product.Name}</Typography>
 //               <Typography
 //                 // className="Ret"
@@ -158,7 +155,7 @@
 //               <Box
 //                 display={'flex'}
 //                 justifyContent={'space-between'}
-               
+
 //               >
 //                 <Link to={`/singleproducts/${product.id}`}>
 //                   <Button
@@ -173,7 +170,7 @@
 //                   </Button>
 //                 </Link>
 //                 <Button
-//       variant='contained'  
+//       variant='contained'
 
 //                   className="AddToCart"
 //                   onClick={() => {
@@ -191,12 +188,11 @@
 //                 </Button>
 //               </Box>
 //             </Card>
-         
+
 //           </SwiperSlide>
 //         ))}
 //       </Swiper>
 //     </Box>
-
 
 //     </>
 //   );
@@ -204,63 +200,79 @@
 
 // export default PlantCards;
 
-
-
-
-
-
-
-
-
-
-
-
-import React from 'react';
-import { Carddata, Plant } from '../../Dummydata';
-import Card from '@mui/material/Card';
-import CardActions from '@mui/material/CardActions';
-import CardContent from '@mui/material/CardContent';
-import CardMedia from '@mui/material/CardMedia';
-import Button from '@mui/material/Button';
-import Typography from '@mui/material/Typography';
-import { Box, Chip, Rating } from '@mui/material';
-import Theme from '../../Theme';
-
-
+import React from "react";
+import { Carddata, Plant } from "../../Dummydata";
+import Card from "@mui/material/Card";
+import CardActions from "@mui/material/CardActions";
+import CardContent from "@mui/material/CardContent";
+import CardMedia from "@mui/material/CardMedia";
+import Button from "@mui/material/Button";
+import Typography from "@mui/material/Typography";
+import { Box, Chip, Rating } from "@mui/material";
+import Theme from "../../Theme";
+import "./PlantCards.css";
 
 export default function PlantCards() {
   return (
     <div>
-      <Box   sx={{display:'flex', flexDirection:'row', gap:'1.5rem',justifyContent:'center', marginBottom:'3rem'}} >     
-      {Plant.map((item, index) => (
-       <Card   key={index} sx={{ maxWidth: 230,borderRadius:'0.5rem',   boxShadow:1 }}>
-      
-       <CardMedia
-         sx={{ height: 145 ,width:245,
-          // borderRadius:'0.5rem',
-          padding:'1rem'}}
-         image={item.img}
-         title={item.Name}
-       />
-       {/* <CardContent>
-     
-        <Typography  sx={{fontFamily:'monospace'}}       >{item.Name}</Typography>
-        <Typography sx={{fontFamily:'monospace', fontWeight:'700'}}   >₹{item.price}</Typography>
-       </CardContent>
-       <CardActions>   
-         <Button    size='small'  variant="contained"  sx={{width:'100%',borderRadius:'0.3rem',bgcolor: Theme.palette.primary.light , '&:hover': {
-          bgcolor: Theme.palette.primary.Hoverlight,
-        } }}   >Add to Card</Button>
-        </CardActions> */}
-      </Card>
-
-    
-
-
-
-
-
-      ))}
+      <Box
+        sx={{
+          display: "flex",
+          flexDirection: "row",
+          gap: "1.5rem",
+          justifyContent: "center",
+          marginBottom: "3rem",
+        }}
+      >
+        {Plant.map((item, index) => (
+          <div key={index} className="container">
+            <div className="card">
+              <img src={item.img} alt="" />
+              <div className="card-body">
+                <div className="row">
+                  <div className="card-title">
+                    <h4>{item.Name}</h4>
+                    <h3>₹{item.price}</h3>
+                    <p
+                      style={{
+                        position: "absolute",
+                        top: "2rem",
+// right:'3rem',
+fontWeight:'600',
+                        backgroundColor: "gold",
+                        border: "",
+                        borderRadius: "5rem",
+                        padding: "0.3rem",
+                      }}
+                    >
+                      {item.Offer} off 
+                    </p>
+                    <Rating
+                      name="rating"
+                      value={item.Value}
+                      precision={0.5}
+                      readOnly
+                    />
+                  </div>
+                  <div className="view-btn">
+                    <a href="#">View Details</a>
+                  </div>
+                </div>
+                <hr />
+                <p>
+                  {item.description.length > 10
+                    ? `${item.description.slice(0, 40)}...`
+                    : item.description}
+                </p>
+                <div className="btn-group">
+                  <div className="btn">
+                    <a href="#">Add Card</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        ))}
       </Box>
     </div>
   );

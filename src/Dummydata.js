@@ -119,6 +119,7 @@ export const Plant = [
     img: Ic1,
     Title: "   5 Best Fragrant Plants",
     Value: "2",
+    Offer:'31%'
   },
   {
     id: "2",
@@ -129,16 +130,18 @@ export const Plant = [
     img: Ic2,
     Title: "  5 Best Fragrant Plants ",
     Value: "3",
+    Offer:'72%'
   },
   {
     id: "3",
     Name: "Teak Plant",
     description:
       "He bends! He stretches! He even ties in knots, but always returns to his original shape!Plants are living organisms that grow from soil and use photosynthesis to produce their own food. They are one of five kingdoms of living things, and are autotrophic eukaryotes, meaning they have complex cells and make their own food.",
-    img: Ic3,
+    img: Ic2,
     price: "473",
     Title: "      5 Best Fragrant Plants ",
     Value: "5",
+    Offer:'84%'
   },
   {
     id: "4",
@@ -149,7 +152,9 @@ export const Plant = [
     price: "498",
     Title: "   5 Best Fragrant Plants",
     Value: "3",
+    Offer:'74%'
   },
+  
 
 
 ]
